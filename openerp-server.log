@@ -1,0 +1,1315 @@
+2015-04-15 01:48:20,552 8268 INFO ? openerp: OpenERP version 8.0
+2015-04-15 01:48:20,552 8268 INFO ? openerp: addons paths: ['addons\\8.0', u'C:\\Users\\patri_000\\desarrollo\\odoo8\\openerp\\addons']
+2015-04-15 01:48:20,552 8268 INFO ? openerp: database hostname: localhost
+2015-04-15 01:48:20,552 8268 INFO ? openerp: database port: 5432
+2015-04-15 01:48:20,552 8268 INFO ? openerp: database user: openpg
+2015-04-15 01:48:21,257 8268 INFO ? openerp.service.server: HTTP service (werkzeug) running on 0.0.0.0:8069
+2015-04-15 01:48:21,380 8268 INFO desarrollo openerp.modules.loading: loading 1 modules...
+2015-04-15 01:48:21,411 8268 INFO desarrollo openerp.modules.loading: 1 modules loaded in 0.03s, 0 queries
+2015-04-15 01:48:21,671 8268 INFO desarrollo openerp.modules.loading: loading 74 modules...
+2015-04-15 01:48:21,951 8268 INFO ? openerp.addons.bus.bus: Bus.loop listen imbus on db postgres
+2015-04-15 01:48:22,003 8268 INFO desarrollo openerp.addons.report.models.report: You need Wkhtmltopdf to print a pdf version of the reports.
+2015-04-15 01:48:25,835 8268 INFO ? openerp.http: HTTP Configuring static files
+2015-04-15 01:48:26,026 8268 INFO desarrollo openerp.modules.loading: 74 modules loaded in 4.36s, 0 queries
+2015-04-15 01:48:29,822 8268 INFO desarrollo openerp.modules.loading: Modules loaded.
+2015-04-15 01:48:29,834 8268 INFO desarrollo openerp.addons.base.ir.ir_http: Generating routing map
+2015-04-15 01:48:30,358 8268 INFO desarrollo openerp.addons.base.ir.ir_http: Generating routing map
+2015-04-15 01:48:31,904 8268 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 01:48:31] "GET /web/login?redirect=http%3A%2F%2Flocalhost%3A8069%2Fweb HTTP/1.1" 200 -
+2015-04-15 01:48:31,908 8268 ERROR desarrollo openerp.service.server: Exception happened during processing of request from ('127.0.0.1', 61475)
+Traceback (most recent call last):
+  File "C:\Python27\lib\SocketServer.py", line 599, in process_request_thread
+    self.finish_request(request, client_address)
+  File "C:\Python27\lib\SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "C:\Python27\lib\SocketServer.py", line 657, in __init__
+    self.finish()
+  File "C:\Python27\lib\SocketServer.py", line 716, in finish
+    self.wfile.close()
+  File "C:\Python27\lib\socket.py", line 279, in close
+    self.flush()
+  File "C:\Python27\lib\socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 10053] Se ha anulado una conexiÃ³n establecida por el software en su equipo host
+2015-04-15 01:48:32,005 8268 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 01:48:32] "GET /web/login?redirect=http%3A%2F%2Flocalhost%3A8069%2Fweb HTTP/1.1" 200 -
+2015-04-15 01:48:32,881 8268 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 01:48:32] "GET /web/js/web.assets_common/c26adc0 HTTP/1.1" 200 -
+2015-04-15 01:48:32,881 8268 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 01:48:32] "GET /web/css/web.assets_common/c26adc0 HTTP/1.1" 200 -
+2015-04-15 01:48:32,921 8268 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 01:48:32] "GET /logo.png HTTP/1.1" 304 -
+2015-04-15 01:48:33,009 8268 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 01:48:33] "GET /web/css/website.assets_frontend/f6fcc36 HTTP/1.1" 200 -
+2015-04-15 01:48:33,056 8268 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 01:48:33] "GET /web/js/website.assets_frontend/f6fcc36 HTTP/1.1" 200 -
+2015-04-15 01:48:33,076 8268 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 01:48:33] "GET /web/static/lib/fontawesome/fonts/fontawesome-webfont.woff?v=4.2.0 HTTP/1.1" 304 -
+2015-04-15 01:48:33,680 8268 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 01:48:33] "GET /website/static/src/xml/website.xml HTTP/1.1" 200 -
+2015-04-15 01:48:36,490 8268 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 01:48:36] "POST /web/login HTTP/1.1" 200 -
+2015-04-15 01:48:41,792 8268 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 01:48:41] "GET /web HTTP/1.1" 200 -
+2015-04-15 01:48:43,644 8268 INFO desarrollo openerp.service.common: successful login from 'admin' using database 'desarrollo'
+2015-04-15 01:48:43,832 8268 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 01:48:43] "POST /web/session/get_session_info HTTP/1.1" 200 -
+2015-04-15 01:48:44,259 8268 INFO None openerp.http: Generating nondb routing
+2015-04-15 01:48:44,937 8268 INFO None werkzeug: 127.0.0.1 - - [15/Apr/2015 01:48:44] "POST /web/proxy/load HTTP/1.1" 200 -
+2015-04-15 01:48:45,259 8268 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 01:48:45] "POST /web/session/modules HTTP/1.1" 200 -
+2015-04-15 01:48:46,242 8268 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 01:48:46] "POST /web/webclient/translations HTTP/1.1" 200 -
+2015-04-15 01:48:46,867 8268 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 01:48:46] "POST /web/dataset/call_kw/res.users/has_group HTTP/1.1" 200 -
+2015-04-15 01:48:46,904 8268 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 01:48:46] "POST /web/dataset/call_kw/res.users/read HTTP/1.1" 200 -
+2015-04-15 01:48:47,023 8268 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 01:48:47] "POST /web/dataset/call_kw/res.users/read HTTP/1.1" 200 -
+2015-04-15 01:48:47,023 8268 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 01:48:47] "POST /calendar/notify HTTP/1.1" 200 -
+2015-04-15 01:48:47,279 8268 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 01:48:47] "POST /web/dataset/call_kw/res.users/has_group HTTP/1.1" 200 -
+2015-04-15 01:48:47,319 8268 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 01:48:47] "POST /im_chat/init HTTP/1.1" 200 -
+2015-04-15 01:48:47,391 8268 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 01:48:47] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2015-04-15 01:48:47,457 8268 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 01:48:47] "POST /web/action/load HTTP/1.1" 200 -
+2015-04-15 01:48:47,691 8268 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 01:48:47] "POST /web/dataset/call_kw/share.wizard/has_share HTTP/1.1" 200 -
+2015-04-15 01:48:48,052 8268 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 01:48:48] "GET /web/binary/image?model=res.users&field=image_small&id=1 HTTP/1.1" 304 -
+2015-04-15 01:48:48,174 8268 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 01:48:48] "POST /web/dataset/call_kw/account.invoice/fields_view_get HTTP/1.1" 200 -
+2015-04-15 01:48:48,374 8268 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 01:48:48] "POST /web/dataset/call_kw/account.invoice/fields_view_get HTTP/1.1" 200 -
+2015-04-15 01:48:48,578 8268 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 01:48:48] "POST /web/dataset/call_kw/ir.filters/get_filters HTTP/1.1" 200 -
+2015-04-15 01:48:48,654 8268 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 01:48:48] "POST /web/dataset/call_kw/account.invoice/fields_get HTTP/1.1" 200 -
+2015-04-15 01:48:48,806 8268 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 01:48:48] "POST /web/menu/load_needaction HTTP/1.1" 200 -
+2015-04-15 01:48:49,214 8268 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 01:48:49] "POST /web/dataset/call_kw/account.invoice/fields_view_get HTTP/1.1" 200 -
+2015-04-15 01:48:49,875 8268 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 01:48:49] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2015-04-15 01:48:53,723 8268 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 01:48:53] "POST /web/dataset/call_kw/account.invoice/fields_view_get HTTP/1.1" 200 -
+2015-04-15 01:48:54,730 8268 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 01:48:54] "POST /web/dataset/call_kw/account.invoice/read HTTP/1.1" 200 -
+2015-04-15 01:48:55,131 8268 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 01:48:55] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2015-04-15 01:48:55,171 8268 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 01:48:55] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2015-04-15 01:48:55,171 8268 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 01:48:55] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2015-04-15 01:48:55,184 8268 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 01:48:55] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2015-04-15 01:48:55,351 8268 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 01:48:55] "POST /web/dataset/call_kw/res.partner/name_get HTTP/1.1" 200 -
+2015-04-15 01:48:55,483 8268 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 01:48:55] "POST /web/dataset/call_kw/res.company/name_search HTTP/1.1" 200 -
+2015-04-15 01:48:55,555 8268 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 01:48:55] "POST /web/dataset/call_kw/account.invoice/read_followers_data HTTP/1.1" 200 -
+2015-04-15 01:48:55,631 8268 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 01:48:55] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2015-04-15 01:48:55,696 8268 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 01:48:55] "POST /web/dataset/call_kw/mail.message/message_read HTTP/1.1" 200 -
+2015-04-15 01:48:56,043 8268 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 01:48:56] "POST /web/dataset/call_kw/account.invoice/message_get_subscription_data HTTP/1.1" 200 -
+2015-04-15 01:48:56,059 8268 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 01:48:56] "GET /web/binary/image?model=res.partner&field=image_small&id=3&resize= HTTP/1.1" 304 -
+2015-04-15 01:48:56,072 8268 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 01:48:56] "POST /web/dataset/call_kw/mail.message/set_message_read HTTP/1.1" 200 -
+2015-04-15 01:48:56,124 8268 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 01:48:56] "POST /web/dataset/call_kw/account.invoice.line/read HTTP/1.1" 200 -
+2015-04-15 01:48:56,187 8268 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 01:48:56] "POST /web/dataset/call_kw/account.tax/name_get HTTP/1.1" 200 -
+2015-04-15 01:48:56,467 8268 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 01:48:56] "POST /web/dataset/call_kw/account.tax/name_get HTTP/1.1" 200 -
+2015-04-15 01:48:56,496 8268 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 01:48:56] "POST /web/dataset/call_kw/account.invoice.tax/read HTTP/1.1" 200 -
+2015-04-15 01:48:56,588 8268 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 01:48:56] "POST /web/dataset/call_kw/account.tax/name_get HTTP/1.1" 200 -
+2015-04-15 01:48:56,927 8268 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 01:48:56] "POST /web/dataset/call_kw/account.tax/name_get HTTP/1.1" 200 -
+2015-04-15 01:48:56,953 8268 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 01:48:56] "GET /web/binary/image?model=res.partner&field=image_small&id=43&resize= HTTP/1.1" 200 -
+2015-04-15 01:48:59,052 8268 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 01:48:59] "POST /web/dataset/call_button HTTP/1.1" 200 -
+2015-04-15 01:48:59,467 8268 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 01:48:59] "POST /report/check_wkhtmltopdf HTTP/1.1" 200 -
+2015-04-15 01:48:59,503 8268 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 01:48:59] "POST /web/menu/load_needaction HTTP/1.1" 200 -
+2015-04-15 01:49:00,963 8268 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 01:49:00] "GET /report/html/account.report_invoice/19 HTTP/1.1" 200 -
+2015-04-15 01:49:03,420 8268 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 01:49:03] "POST /web/webclient/translations HTTP/1.1" 200 -
+2015-04-15 10:47:40,420 10260 INFO ? openerp: OpenERP version 8.0
+2015-04-15 10:47:40,420 10260 INFO ? openerp: addons paths: ['addons\\8.0', u'C:\\Users\\patri_000\\desarrollo\\odoo8\\openerp\\addons']
+2015-04-15 10:47:40,420 10260 INFO ? openerp: database hostname: localhost
+2015-04-15 10:47:40,420 10260 INFO ? openerp: database port: 5432
+2015-04-15 10:47:40,420 10260 INFO ? openerp: database user: openpg
+2015-04-15 10:47:43,776 10260 INFO ? openerp.service.server: HTTP service (werkzeug) running on 0.0.0.0:8069
+2015-04-15 10:47:44,286 10260 INFO desarrollo openerp.modules.loading: loading 1 modules...
+2015-04-15 10:47:44,319 10260 INFO desarrollo openerp.modules.loading: 1 modules loaded in 0.03s, 0 queries
+2015-04-15 10:47:45,867 10260 INFO desarrollo openerp.modules.loading: loading 74 modules...
+2015-04-15 10:47:46,282 10260 INFO ? openerp.addons.bus.bus: Bus.loop listen imbus on db postgres
+2015-04-15 10:47:46,539 10260 INFO desarrollo openerp.addons.report.models.report: You need Wkhtmltopdf to print a pdf version of the reports.
+2015-04-15 10:47:54,391 10260 INFO desarrollo openerp.modules.loading: 74 modules loaded in 8.52s, 0 queries
+2015-04-15 10:48:01,618 10260 INFO ? openerp.http: HTTP Configuring static files
+2015-04-15 10:48:02,486 10260 INFO desarrollo openerp.modules.loading: Modules loaded.
+2015-04-15 10:48:02,605 10260 INFO desarrollo openerp.addons.base.ir.ir_http: Generating routing map
+2015-04-15 10:48:54,846 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:48:54] "POST /longpolling/poll HTTP/1.1" 200 -
+2015-04-15 10:49:45,223 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:49:45] "POST /longpolling/poll HTTP/1.1" 200 -
+2015-04-15 10:50:33,589 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:50:33] "POST /calendar/notify HTTP/1.1" 200 -
+2015-04-15 10:50:35,747 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:50:35] "POST /longpolling/poll HTTP/1.1" 200 -
+2015-04-15 10:51:26,134 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:51:26] "POST /longpolling/poll HTTP/1.1" 200 -
+2015-04-15 10:52:16,506 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:52:16] "POST /longpolling/poll HTTP/1.1" 200 -
+2015-04-15 10:53:06,903 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:53:06] "POST /longpolling/poll HTTP/1.1" 200 -
+2015-04-15 10:53:57,273 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:53:57] "POST /longpolling/poll HTTP/1.1" 200 -
+2015-04-15 10:54:23,397 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:54:23] "GET / HTTP/1.1" 200 -
+2015-04-15 10:54:24,316 10260 ERROR desarrollo openerp.addons.base.ir.ir_attachment: _read_file reading filestore\desarrollo\14/14ef1fa1e243601fde7d93c3d58988275e83bd8b
+Traceback (most recent call last):
+  File "C:\Users\patri_000\desarrollo\odoo8\openerp\addons\base\ir\ir_attachment.py", line 126, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'filestore\\desarrollo\\14/14ef1fa1e243601fde7d93c3d58988275e83bd8b'
+2015-04-15 10:54:24,316 10260 ERROR desarrollo openerp.addons.base.ir.ir_attachment: _read_file reading filestore\desarrollo\e3/e3e73b1a6e58bd0c36d9013f0a4814373a2f403c
+Traceback (most recent call last):
+  File "C:\Users\patri_000\desarrollo\odoo8\openerp\addons\base\ir\ir_attachment.py", line 126, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'filestore\\desarrollo\\e3/e3e73b1a6e58bd0c36d9013f0a4814373a2f403c'
+2015-04-15 10:54:24,381 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:54:24] "GET /website/image/ir.attachment/136_678641b/datas HTTP/1.1" 200 -
+2015-04-15 10:54:24,381 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:54:24] "GET /website/image/ir.attachment/134_aad1bc3/datas HTTP/1.1" 200 -
+2015-04-15 10:54:29,838 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:54:29] "POST /web/webclient/translations HTTP/1.1" 200 -
+2015-04-15 10:54:31,346 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:54:31] "GET /web/login HTTP/1.1" 200 -
+2015-04-15 10:54:34,596 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:54:34] "POST /web/webclient/translations HTTP/1.1" 200 -
+2015-04-15 10:54:36,226 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:54:36] "POST /web/login HTTP/1.1" 200 -
+2015-04-15 10:54:40,723 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:54:40] "GET /web? HTTP/1.1" 200 -
+2015-04-15 10:54:43,667 10260 INFO desarrollo openerp.service.common: successful login from 'admin' using database 'desarrollo'
+2015-04-15 10:54:43,917 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:54:43] "POST /web/session/get_session_info HTTP/1.1" 200 -
+2015-04-15 10:54:44,411 10260 INFO None openerp.http: Generating nondb routing
+2015-04-15 10:54:45,844 10260 INFO None werkzeug: 127.0.0.1 - - [15/Apr/2015 10:54:45] "POST /web/proxy/load HTTP/1.1" 200 -
+2015-04-15 10:54:46,480 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:54:46] "POST /web/session/modules HTTP/1.1" 200 -
+2015-04-15 10:54:47,519 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:54:47] "POST /web/webclient/translations HTTP/1.1" 200 -
+2015-04-15 10:54:47,634 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:54:47] "POST /longpolling/poll HTTP/1.1" 200 -
+2015-04-15 10:54:48,255 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:54:48] "POST /web/dataset/call_kw/res.users/has_group HTTP/1.1" 200 -
+2015-04-15 10:54:48,339 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:54:48] "POST /web/dataset/call_kw/res.users/read HTTP/1.1" 200 -
+2015-04-15 10:54:48,364 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:54:48] "POST /web/dataset/call_kw/res.users/read HTTP/1.1" 200 -
+2015-04-15 10:54:48,371 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:54:48] "POST /web/dataset/call_kw/res.users/read HTTP/1.1" 200 -
+2015-04-15 10:54:48,588 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:54:48] "POST /calendar/notify HTTP/1.1" 200 -
+2015-04-15 10:54:48,819 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:54:48] "POST /web/action/load HTTP/1.1" 200 -
+2015-04-15 10:54:48,826 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:54:48] "POST /web/dataset/call_kw/res.users/has_group HTTP/1.1" 200 -
+2015-04-15 10:54:48,911 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:54:48] "POST /im_chat/init HTTP/1.1" 200 -
+2015-04-15 10:54:48,950 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:54:48] "GET /web/binary/image?model=res.users&field=image_small&id=1 HTTP/1.1" 200 -
+2015-04-15 10:54:49,701 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:54:49] "POST /web/dataset/call_kw/mail.message/fields_view_get HTTP/1.1" 200 -
+2015-04-15 10:54:49,717 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:54:49] "POST /web/dataset/call_kw/mail.group/get_suggested_thread HTTP/1.1" 200 -
+2015-04-15 10:54:49,809 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:54:49] "POST /web/dataset/call_kw/hr.employee/get_suggested_thread HTTP/1.1" 200 -
+2015-04-15 10:54:50,200 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:54:50] "POST /web/dataset/call_kw/res.users/get_challenge_suggestions HTTP/1.1" 200 -
+2015-04-15 10:54:50,457 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:54:50] "POST /web/dataset/call_kw/mail.message/message_read HTTP/1.1" 200 -
+2015-04-15 10:54:50,519 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:54:50] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2015-04-15 10:54:50,536 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:54:50] "POST /web/dataset/call_kw/res.users/get_serialised_gamification_summary HTTP/1.1" 200 -
+2015-04-15 10:54:50,851 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:54:50] "POST /web/dataset/call_kw/mail.message/fields_get HTTP/1.1" 200 -
+2015-04-15 10:54:50,920 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:54:50] "POST /web/dataset/call_kw/ir.filters/get_filters HTTP/1.1" 200 -
+2015-04-15 10:54:51,191 10260 ERROR desarrollo openerp.addons.base.ir.ir_attachment: _read_file reading filestore\desarrollo\dc/dcf00aacce882bbfd117c0277e514f829b4c5bf0
+Traceback (most recent call last):
+  File "C:\Users\patri_000\desarrollo\odoo8\openerp\addons\base\ir\ir_attachment.py", line 126, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'filestore\\desarrollo\\dc/dcf00aacce882bbfd117c0277e514f829b4c5bf0'
+2015-04-15 10:54:51,196 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:54:51] "GET /web/binary/image?model=ir.attachment&field=datas&id=8&resize=100%252C80 HTTP/1.1" 200 -
+2015-04-15 10:54:51,835 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:54:51] "POST /web/menu/load_needaction HTTP/1.1" 200 -
+2015-04-15 10:54:53,608 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:54:53] "POST /web/menu/load_needaction HTTP/1.1" 200 -
+2015-04-15 10:54:53,750 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:54:53] "POST /web/action/load HTTP/1.1" 200 -
+2015-04-15 10:54:54,217 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:54:54] "POST /web/dataset/call_kw/share.wizard/has_share HTTP/1.1" 200 -
+2015-04-15 10:54:54,326 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:54:54] "POST /web/dataset/call_kw/account.invoice/fields_view_get HTTP/1.1" 200 -
+2015-04-15 10:54:54,734 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:54:54] "POST /web/dataset/call_kw/ir.filters/get_filters HTTP/1.1" 200 -
+2015-04-15 10:54:54,762 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:54:54] "POST /web/dataset/call_kw/account.invoice/fields_view_get HTTP/1.1" 200 -
+2015-04-15 10:54:54,789 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:54:54] "POST /web/dataset/call_kw/account.invoice/fields_get HTTP/1.1" 200 -
+2015-04-15 10:54:55,743 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:54:55] "POST /web/dataset/call_kw/account.invoice/fields_view_get HTTP/1.1" 200 -
+2015-04-15 10:54:56,763 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:54:56] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2015-04-15 10:55:02,693 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:02] "POST /web/dataset/call_kw/account.invoice/fields_view_get HTTP/1.1" 200 -
+2015-04-15 10:55:03,882 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:03] "POST /web/dataset/call_kw/account.invoice/read HTTP/1.1" 200 -
+2015-04-15 10:55:04,313 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:04] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2015-04-15 10:55:04,329 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:04] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2015-04-15 10:55:04,345 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:04] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2015-04-15 10:55:04,354 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:04] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2015-04-15 10:55:04,694 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:04] "POST /web/dataset/call_kw/res.company/name_search HTTP/1.1" 200 -
+2015-04-15 10:55:04,762 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:04] "POST /web/dataset/call_kw/res.partner/name_get HTTP/1.1" 200 -
+2015-04-15 10:55:04,802 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:04] "POST /web/dataset/call_kw/account.invoice/read_followers_data HTTP/1.1" 200 -
+2015-04-15 10:55:04,941 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:04] "POST /web/dataset/call_kw/mail.message/message_read HTTP/1.1" 200 -
+2015-04-15 10:55:05,046 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:05] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2015-04-15 10:55:05,289 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:05] "POST /web/dataset/call_kw/mail.message/set_message_read HTTP/1.1" 200 -
+2015-04-15 10:55:05,334 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:05] "POST /web/dataset/call_kw/account.invoice/message_get_subscription_data HTTP/1.1" 200 -
+2015-04-15 10:55:05,378 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:05] "GET /web/binary/image?model=res.partner&field=image_small&id=3&resize= HTTP/1.1" 200 -
+2015-04-15 10:55:05,618 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:05] "POST /web/dataset/call_kw/account.invoice.line/read HTTP/1.1" 200 -
+2015-04-15 10:55:05,655 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:05] "GET /web/binary/image?model=res.partner&field=image_small&id=12&resize= HTTP/1.1" 200 -
+2015-04-15 10:55:05,996 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:05] "POST /web/dataset/call_kw/account.tax/name_get HTTP/1.1" 200 -
+2015-04-15 10:55:06,012 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:06] "POST /web/dataset/call_kw/account.tax/name_get HTTP/1.1" 200 -
+2015-04-15 10:55:06,095 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:06] "POST /web/dataset/call_kw/account.invoice.tax/read HTTP/1.1" 200 -
+2015-04-15 10:55:06,515 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:06] "POST /web/dataset/call_kw/account.tax/name_get HTTP/1.1" 200 -
+2015-04-15 10:55:06,555 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:06] "POST /web/dataset/call_kw/account.tax/name_get HTTP/1.1" 200 -
+2015-04-15 10:55:10,214 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:10] "POST /web/action/load HTTP/1.1" 200 -
+2015-04-15 10:55:10,561 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:10] "POST /report/check_wkhtmltopdf HTTP/1.1" 200 -
+2015-04-15 10:55:12,108 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:12] "GET /report/html/account.report_invoice/20 HTTP/1.1" 200 -
+2015-04-15 10:55:19,884 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:19] "POST /web/webclient/version_info HTTP/1.1" 200 -
+2015-04-15 10:55:20,305 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:20] "GET /web/static/lib/bootstrap/fonts/glyphicons-halflings-regular.woff HTTP/1.1" 200 -
+2015-04-15 10:55:23,571 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:23] "GET /web?debug= HTTP/1.1" 200 -
+2015-04-15 10:55:24,198 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:24] "GET /web/static/lib/cleditor/jquery.cleditor.css HTTP/1.1" 200 -
+2015-04-15 10:55:24,219 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:24] "GET /web/static/lib/jquery.ui.timepicker/css/jquery-ui-timepicker-addon.css HTTP/1.1" 200 -
+2015-04-15 10:55:24,223 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:24] "GET /web/static/lib/jquery.textext/jquery.textext.css HTTP/1.1" 200 -
+2015-04-15 10:55:24,279 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:24] "GET /web/static/lib/select2/select2.css HTTP/1.1" 200 -
+2015-04-15 10:55:24,306 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:24] "GET /web/static/lib/jquery.ui.bootstrap/css/custom-theme/jquery-ui-1.9.0.custom.css HTTP/1.1" 200 -
+2015-04-15 10:55:24,536 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:24] "GET /web/static/lib/jquery.ui.notify/css/ui.notify.css HTTP/1.1" 200 -
+2015-04-15 10:55:24,572 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:24] "GET /web/static/src/css/data_export.css HTTP/1.1" 200 -
+2015-04-15 10:55:24,601 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:24] "GET /base/static/src/css/modules.css HTTP/1.1" 200 -
+2015-04-15 10:55:24,608 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:24] "GET /account/static/src/css/account_move_reconciliation.css HTTP/1.1" 200 -
+2015-04-15 10:55:24,625 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:24] "GET /account/static/src/css/account_move_line_quickadd.css HTTP/1.1" 200 -
+2015-04-15 10:55:24,881 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:24] "GET /account/static/src/css/account_bank_and_cash.css HTTP/1.1" 200 -
+2015-04-15 10:55:24,917 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:24] "GET /account/static/src/css/account_bank_statement_reconciliation.css HTTP/1.1" 200 -
+2015-04-15 10:55:24,933 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:24] "GET /account_analytic_analysis/static/src/css/analytic.css HTTP/1.1" 200 -
+2015-04-15 10:55:24,957 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:24] "GET /base_import/static/src/css/import.css HTTP/1.1" 200 -
+2015-04-15 10:55:24,973 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:24] "GET /base_setup/static/src/css/base_setup.css HTTP/1.1" 200 -
+2015-04-15 10:55:25,224 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:25] "GET /board/static/src/css/dashboard.css HTTP/1.1" 200 -
+2015-04-15 10:55:25,256 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:25] "GET /calendar/static/src/css/calendar.css HTTP/1.1" 200 -
+2015-04-15 10:55:25,269 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:25] "GET /gamification/static/src/css/gamification.css HTTP/1.1" 200 -
+2015-04-15 10:55:25,285 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:25] "GET /hr_attendance/static/src/css/attendance.css HTTP/1.1" 200 -
+2015-04-15 10:55:25,289 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:25] "GET /hr/static/src/css/hr.css HTTP/1.1" 200 -
+2015-04-15 10:55:25,561 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:25] "GET /hr_recruitment/static/src/css/job_position.css HTTP/1.1" 200 -
+2015-04-15 10:55:25,588 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:25] "GET /hr_timesheet_sheet/static/src/css/timesheet.css HTTP/1.1" 200 -
+2015-04-15 10:55:25,608 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:25] "GET /im_chat/static/src/css/im_chat.css HTTP/1.1" 200 -
+2015-04-15 10:55:25,608 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:25] "GET /im_chat/static/src/css/im_common.css HTTP/1.1" 200 -
+2015-04-15 10:55:25,621 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:25] "GET /mail/static/src/css/mail.css HTTP/1.1" 200 -
+2015-04-15 10:55:25,908 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:25] "GET /mail/static/src/css/announcement.css HTTP/1.1" 200 -
+2015-04-15 10:55:25,913 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:25] "GET /mail/static/src/css/mail_group.css HTTP/1.1" 200 -
+2015-04-15 10:55:25,944 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:25] "GET /share/static/src/css/share.css HTTP/1.1" 200 -
+2015-04-15 10:55:25,957 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:25] "GET /portal/static/src/css/portal.css HTTP/1.1" 200 -
+2015-04-15 10:55:25,976 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:25] "GET /sales_team/static/src/css/sales_team.css HTTP/1.1" 200 -
+2015-04-15 10:55:26,276 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:26] "GET /stock/static/src/css/stock.css HTTP/1.1" 200 -
+2015-04-15 10:55:26,289 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:26] "GET /web_gantt/static/src/css/gantt.css HTTP/1.1" 200 -
+2015-04-15 10:55:26,292 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:26] "GET /web_diagram/static/src/css/base_diagram.css HTTP/1.1" 200 -
+2015-04-15 10:55:26,325 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:26] "GET /web_calendar/static/src/css/web_fullcalendar.css HTTP/1.1" 200 -
+2015-04-15 10:55:26,336 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:26] "GET /web_calendar/static/lib/fullcalendar/css/fullcalendar.css HTTP/1.1" 200 -
+2015-04-15 10:55:26,624 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:26] "GET /web_gantt/static/lib/dhtmlxGantt/codebase/dhtmlxgantt.css HTTP/1.1" 200 -
+2015-04-15 10:55:26,644 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:26] "GET /web_graph/static/src/css/graph.css HTTP/1.1" 200 -
+2015-04-15 10:55:26,644 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:26] "GET /web_graph/static/src/css/nv.d3.css HTTP/1.1" 200 -
+2015-04-15 10:55:26,667 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:26] "GET /web_tests/static/src/css/web_tests.css HTTP/1.1" 200 -
+2015-04-15 10:55:26,667 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:26] "GET /web_kanban/static/src/css/kanban.css HTTP/1.1" 200 -
+2015-04-15 10:55:26,947 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:26] "GET /web_view_editor/static/src/css/view_editor.css HTTP/1.1" 200 -
+2015-04-15 10:55:26,970 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:26] "GET /website/static/src/css/website.backend.css HTTP/1.1" 200 -
+2015-04-15 10:55:26,994 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:26] "GET /web/static/lib/es5-shim/es5-shim.min.js HTTP/1.1" 200 -
+2015-04-15 10:55:27,030 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:27] "GET /web/static/lib/underscore/underscore.js HTTP/1.1" 200 -
+2015-04-15 10:55:27,062 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:27] "GET /web/static/lib/underscore.string/lib/underscore.string.js HTTP/1.1" 200 -
+2015-04-15 10:55:27,286 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:27] "GET /web/static/lib/datejs/globalization/en-US.js HTTP/1.1" 200 -
+2015-04-15 10:55:27,322 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:27] "GET /web/static/lib/spinjs/spin.js HTTP/1.1" 200 -
+2015-04-15 10:55:27,335 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:27] "GET /web/static/lib/jquery/jquery.js HTTP/1.1" 200 -
+2015-04-15 10:55:27,375 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:27] "GET /web/static/lib/jquery.blockUI/jquery.blockUI.js HTTP/1.1" 200 -
+2015-04-15 10:55:27,430 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:27] "GET /web/static/lib/jquery.hotkeys/jquery.hotkeys.js HTTP/1.1" 200 -
+2015-04-15 10:55:27,611 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:27] "GET /web/static/lib/jquery.placeholder/jquery.placeholder.js HTTP/1.1" 200 -
+2015-04-15 10:55:27,698 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:27] "GET /web/static/lib/jquery.timeago/jquery.timeago.js HTTP/1.1" 200 -
+2015-04-15 10:55:27,726 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:27] "GET /web/static/lib/jquery.form/jquery.form.js HTTP/1.1" 200 -
+2015-04-15 10:55:27,759 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:27] "GET /web/static/lib/jquery.ba-bbq/jquery.ba-bbq.js HTTP/1.1" 200 -
+2015-04-15 10:55:27,766 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:27] "GET /web/static/lib/qweb/qweb2.js HTTP/1.1" 200 -
+2015-04-15 10:55:27,950 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:27] "GET /web/static/src/js/openerpframework.js HTTP/1.1" 200 -
+2015-04-15 10:55:28,042 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:28] "GET /web/static/src/js/tour.js HTTP/1.1" 200 -
+2015-04-15 10:55:28,091 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:28] "GET /web/static/lib/datejs/core.js HTTP/1.1" 200 -
+2015-04-15 10:55:28,118 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:28] "GET /web/static/lib/datejs/parser.js HTTP/1.1" 200 -
+2015-04-15 10:55:28,122 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:28] "GET /web/static/lib/datejs/sugarpak.js HTTP/1.1" 200 -
+2015-04-15 10:55:28,279 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:28] "GET /web/static/lib/datejs/extras.js HTTP/1.1" 200 -
+2015-04-15 10:55:28,407 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:28] "GET /web/static/lib/jquery.validate/jquery.validate.js HTTP/1.1" 200 -
+2015-04-15 10:55:28,423 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:28] "GET /web/static/lib/jquery.autosize/jquery.autosize.js HTTP/1.1" 200 -
+2015-04-15 10:55:28,459 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:28] "GET /web/static/lib/jquery.scrollTo/jquery.scrollTo-min.js HTTP/1.1" 200 -
+2015-04-15 10:55:28,474 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:28] "GET /web/static/lib/cleditor/jquery.cleditor.js HTTP/1.1" 200 -
+2015-04-15 10:55:28,622 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:28] "GET /web/static/lib/jquery.textext/jquery.textext.js HTTP/1.1" 200 -
+2015-04-15 10:55:28,750 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:28] "GET /web/static/lib/select2/select2.js HTTP/1.1" 200 -
+2015-04-15 10:55:28,782 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:28] "GET /web/static/lib/bootstrap/js/bootstrap.js HTTP/1.1" 200 -
+2015-04-15 10:55:28,806 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:28] "GET /web/static/lib/jquery.ui/js/jquery-ui-1.9.1.custom.js HTTP/1.1" 200 -
+2015-04-15 10:55:28,838 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:28] "GET /web/static/lib/jquery.ui.timepicker/js/jquery-ui-timepicker-addon.js HTTP/1.1" 200 -
+2015-04-15 10:55:28,994 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:28] "GET /web/static/lib/jquery.ui.notify/js/jquery.notify.js HTTP/1.1" 200 -
+2015-04-15 10:55:29,174 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:29] "GET /web/static/lib/backbone/backbone.js HTTP/1.1" 200 -
+2015-04-15 10:55:29,263 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:29] "GET /web/static/src/js/boot.js HTTP/1.1" 200 -
+2015-04-15 10:55:29,275 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:29] "GET /web/static/src/js/testing.js HTTP/1.1" 200 -
+2015-04-15 10:55:29,286 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:29] "GET /web/static/lib/py.js/lib/py.js HTTP/1.1" 200 -
+2015-04-15 10:55:29,326 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:29] "GET /web/static/src/js/pyeval.js HTTP/1.1" 200 -
+2015-04-15 10:55:29,515 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:29] "GET /web/static/src/js/core.js HTTP/1.1" 200 -
+2015-04-15 10:55:29,647 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:29] "GET /web/static/src/js/formats.js HTTP/1.1" 200 -
+2015-04-15 10:55:29,678 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:29] "GET /web/static/src/js/data.js HTTP/1.1" 200 -
+2015-04-15 10:55:29,698 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:29] "GET /web/static/src/js/chrome.js HTTP/1.1" 200 -
+2015-04-15 10:55:29,703 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:29] "GET /web/static/src/js/views.js HTTP/1.1" 200 -
+2015-04-15 10:55:29,838 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:29] "GET /web/static/src/js/data_export.js HTTP/1.1" 200 -
+2015-04-15 10:55:29,992 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:29] "GET /web/static/src/js/search.js HTTP/1.1" 200 -
+2015-04-15 10:55:30,032 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:30] "GET /web/static/src/js/view_list.js HTTP/1.1" 200 -
+2015-04-15 10:55:30,063 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:30] "GET /web/static/src/js/view_form.js HTTP/1.1" 200 -
+2015-04-15 10:55:30,068 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:30] "GET /web/static/src/js/view_list_editable.js HTTP/1.1" 200 -
+2015-04-15 10:55:30,220 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:30] "GET /web/static/src/js/view_tree.js HTTP/1.1" 200 -
+2015-04-15 10:55:30,375 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:30] "GET /base/static/src/js/apps.js HTTP/1.1" 200 -
+2015-04-15 10:55:30,391 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:30] "GET /account/static/src/js/account_widgets.js HTTP/1.1" 200 -
+2015-04-15 10:55:30,424 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:30] "GET /account/static/src/js/account_move_line_quickadd.js HTTP/1.1" 200 -
+2015-04-15 10:55:30,431 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:30] "GET /account/static/src/js/account_tour_bank_statement_reconciliation.js HTTP/1.1" 200 -
+2015-04-15 10:55:30,572 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:30] "GET /base_import/static/lib/javascript-state-machine/state-machine.js HTTP/1.1" 200 -
+2015-04-15 10:55:30,711 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:30] "GET /base_import/static/src/js/import.js HTTP/1.1" 200 -
+2015-04-15 10:55:30,779 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:30] "GET /calendar/static/src/js/base_calendar.js HTTP/1.1" 200 -
+2015-04-15 10:55:30,783 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:30] "GET /document/static/src/js/document.js HTTP/1.1" 200 -
+2015-04-15 10:55:30,815 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:30] "GET /board/static/src/js/dashboard.js HTTP/1.1" 200 -
+2015-04-15 10:55:30,940 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:30] "GET /edi/static/src/js/edi.js HTTP/1.1" 200 -
+2015-04-15 10:55:31,079 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:31] "GET /gamification/static/src/js/gamification.js HTTP/1.1" 200 -
+2015-04-15 10:55:31,144 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:31] "GET /hr/static/src/js/suggestions.js HTTP/1.1" 200 -
+2015-04-15 10:55:31,196 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:31] "GET /hr_attendance/static/src/js/attendance.js HTTP/1.1" 200 -
+2015-04-15 10:55:31,296 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:31] "GET /hr_gamification/static/src/js/gamification.js HTTP/1.1" 200 -
+2015-04-15 10:55:31,315 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:31] "GET /hr_recruitment/static/src/js/job_position.js HTTP/1.1" 200 -
+2015-04-15 10:55:31,411 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:31] "GET /hr_timesheet_sheet/static/src/js/timesheet.js HTTP/1.1" 200 -
+2015-04-15 10:55:31,476 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:31] "GET /bus/static/src/js/bus.js HTTP/1.1" 200 -
+2015-04-15 10:55:31,543 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:31] "GET /im_chat/static/src/js/im_chat.js HTTP/1.1" 200 -
+2015-04-15 10:55:31,628 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:31] "GET /im_odoo_support/static/src/js/im_odoo_support.js HTTP/1.1" 200 -
+2015-04-15 10:55:31,635 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:31] "GET /mail/static/src/js/mail.js HTTP/1.1" 200 -
+2015-04-15 10:55:31,783 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:31] "GET /mail/static/src/js/mail_followers.js HTTP/1.1" 200 -
+2015-04-15 10:55:31,848 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:31] "GET /mail/static/src/js/many2many_tags_email.js HTTP/1.1" 200 -
+2015-04-15 10:55:31,868 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:31] "GET /mail/static/src/js/announcement.js HTTP/1.1" 200 -
+2015-04-15 10:55:31,967 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:31] "GET /mail/static/src/js/suggestions.js HTTP/1.1" 200 -
+2015-04-15 10:55:31,996 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:31] "GET /point_of_sale/static/lib/fastclick.js HTTP/1.1" 200 -
+2015-04-15 10:55:32,135 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:32] "GET /point_of_sale/static/lib/waitfont.js HTTP/1.1" 200 -
+2015-04-15 10:55:32,176 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:32] "GET /point_of_sale/static/src/js/db.js HTTP/1.1" 200 -
+2015-04-15 10:55:32,184 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:32] "GET /point_of_sale/static/src/js/models.js HTTP/1.1" 200 -
+2015-04-15 10:55:32,288 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:32] "GET /point_of_sale/static/src/js/widget_base.js HTTP/1.1" 200 -
+2015-04-15 10:55:32,315 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:32] "GET /point_of_sale/static/src/js/widget_keyboard.js HTTP/1.1" 200 -
+2015-04-15 10:55:32,476 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:32] "GET /point_of_sale/static/src/js/widgets.js HTTP/1.1" 200 -
+2015-04-15 10:55:32,503 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:32] "GET /point_of_sale/static/src/js/devices.js HTTP/1.1" 200 -
+2015-04-15 10:55:32,519 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:32] "GET /point_of_sale/static/src/js/screens.js HTTP/1.1" 200 -
+2015-04-15 10:55:32,608 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:32] "GET /point_of_sale/static/src/js/tests.js HTTP/1.1" 200 -
+2015-04-15 10:55:32,644 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:32] "GET /point_of_sale/static/src/js/main.js HTTP/1.1" 200 -
+2015-04-15 10:55:32,844 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:32] "GET /report/static/src/js/qwebactionmanager.js HTTP/1.1" 200 -
+2015-04-15 10:55:32,864 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:32] "GET /sales_team/static/src/js/sales_team.js HTTP/1.1" 200 -
+2015-04-15 10:55:32,875 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:32] "GET /share/static/src/js/share.js HTTP/1.1" 200 -
+2015-04-15 10:55:32,992 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:32] "GET /stock/static/src/js/widgets.js HTTP/1.1" 200 -
+2015-04-15 10:55:33,003 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:33] "GET /web_calendar/static/lib/fullcalendar/js/fullcalendar.js HTTP/1.1" 200 -
+2015-04-15 10:55:33,184 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:33] "GET /web_calendar/static/src/js/web_calendar.js HTTP/1.1" 200 -
+2015-04-15 10:55:33,200 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:33] "GET /web_diagram/static/lib/js/jquery.mousewheel.js HTTP/1.1" 200 -
+2015-04-15 10:55:33,236 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:33] "GET /web_diagram/static/lib/js/raphael.js HTTP/1.1" 200 -
+2015-04-15 10:55:33,319 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:33] "GET /web_diagram/static/src/js/vec2.js HTTP/1.1" 200 -
+2015-04-15 10:55:33,407 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:33] "GET /web_diagram/static/src/js/graph.js HTTP/1.1" 200 -
+2015-04-15 10:55:33,552 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:33] "GET /web_diagram/static/src/js/diagram.js HTTP/1.1" 200 -
+2015-04-15 10:55:33,592 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:33] "GET /web_gantt/static/lib/dhtmlxGantt/sources/dhtmlxcommon.js HTTP/1.1" 200 -
+2015-04-15 10:55:33,595 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:33] "GET /web_gantt/static/lib/dhtmlxGantt/sources/dhtmlxgantt.js HTTP/1.1" 200 -
+2015-04-15 10:55:33,655 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:33] "GET /web_gantt/static/src/js/gantt.js HTTP/1.1" 200 -
+2015-04-15 10:55:33,747 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:33] "GET /web_graph/static/lib/nvd3/d3.v3.js HTTP/1.1" 200 -
+2015-04-15 10:55:33,907 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:33] "GET /web_graph/static/lib/nvd3/nv.d3.js HTTP/1.1" 200 -
+2015-04-15 10:55:33,967 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:33] "GET /web_graph/static/src/js/graph_view.js HTTP/1.1" 200 -
+2015-04-15 10:55:34,019 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:34] "GET /web_graph/static/src/js/pivot_table.js HTTP/1.1" 200 -
+2015-04-15 10:55:34,032 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:34] "GET /web_graph/static/src/js/graph_widget.js HTTP/1.1" 200 -
+2015-04-15 10:55:34,148 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:34] "GET /web_kanban/static/src/js/kanban.js HTTP/1.1" 200 -
+2015-04-15 10:55:34,299 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:34] "GET /web_kanban_gauge/static/lib/justgage/justgage.js HTTP/1.1" 200 -
+2015-04-15 10:55:34,371 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:34] "GET /web_kanban_gauge/static/src/js/kanban_gauge.js HTTP/1.1" 200 -
+2015-04-15 10:55:34,371 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:34] "GET /web_kanban_sparkline/static/src/js/kanban_sparkline.js HTTP/1.1" 200 -
+2015-04-15 10:55:34,411 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:34] "GET /web_kanban_sparkline/static/lib/jquery.sparkline/jquery.sparkline.js HTTP/1.1" 200 -
+2015-04-15 10:55:34,496 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:34] "GET /web_tests/static/src/js/web_tests.js HTTP/1.1" 200 -
+2015-04-15 10:55:34,631 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:34] "GET /web_view_editor/static/src/js/view_editor.js HTTP/1.1" 200 -
+2015-04-15 10:55:34,684 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:34] "GET /web/static/src/js/views.js HTTP/1.1" 200 -
+2015-04-15 10:55:34,720 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:34] "GET /website/static/src/js/website.backend.js HTTP/1.1" 200 -
+2015-04-15 10:55:34,759 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:34] "POST /calendar/notify HTTP/1.1" 200 -
+2015-04-15 10:55:35,032 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:35] "GET /web/static/src/js/data.js HTTP/1.1" 200 -
+2015-04-15 10:55:35,369 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:35] "GET /web/static/src/js/data_export.js HTTP/1.1" 200 -
+2015-04-15 10:55:35,703 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:35] "GET /web/static/src/js/search.js HTTP/1.1" 200 -
+2015-04-15 10:55:36,118 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:36] "GET /web/static/src/js/view_list.js HTTP/1.1" 200 -
+2015-04-15 10:55:36,490 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:36] "GET /web/static/src/js/view_form.js HTTP/1.1" 200 -
+2015-04-15 10:55:37,032 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:37] "GET /web/static/src/js/view_list_editable.js HTTP/1.1" 200 -
+2015-04-15 10:55:37,388 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:37] "GET /account/static/src/js/account_widgets.js HTTP/1.1" 200 -
+2015-04-15 10:55:37,763 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:37] "GET /account/static/src/js/account_move_line_quickadd.js HTTP/1.1" 200 -
+2015-04-15 10:55:38,006 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:38] "POST /longpolling/poll HTTP/1.1" 200 -
+2015-04-15 10:55:38,101 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:38] "GET /base_import/static/src/js/import.js HTTP/1.1" 200 -
+2015-04-15 10:55:38,434 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:38] "GET /board/static/src/js/dashboard.js HTTP/1.1" 200 -
+2015-04-15 10:55:38,789 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:38] "GET /calendar/static/src/js/base_calendar.js HTTP/1.1" 200 -
+2015-04-15 10:55:39,138 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:39] "GET /hr/static/src/js/suggestions.js HTTP/1.1" 200 -
+2015-04-15 10:55:39,493 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:39] "GET /hr_timesheet_sheet/static/src/js/timesheet.js HTTP/1.1" 200 -
+2015-04-15 10:55:39,825 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:39] "GET /im_chat/static/src/js/im_chat.js HTTP/1.1" 200 -
+2015-04-15 10:55:40,174 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:40] "GET /im_odoo_support/static/src/js/im_odoo_support.js HTTP/1.1" 200 -
+2015-04-15 10:55:40,558 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:40] "GET /mail/static/src/js/mail.js HTTP/1.1" 200 -
+2015-04-15 10:55:40,686 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:40] "POST /longpolling/poll HTTP/1.1" 200 -
+2015-04-15 10:55:40,686 10260 ERROR desarrollo openerp.service.server: Exception happened during processing of request from ('127.0.0.1', 62555)
+Traceback (most recent call last):
+  File "C:\Python27\lib\SocketServer.py", line 599, in process_request_thread
+    self.finish_request(request, client_address)
+  File "C:\Python27\lib\SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "C:\Python27\lib\SocketServer.py", line 657, in __init__
+    self.finish()
+  File "C:\Python27\lib\SocketServer.py", line 716, in finish
+    self.wfile.close()
+  File "C:\Python27\lib\socket.py", line 279, in close
+    self.flush()
+  File "C:\Python27\lib\socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 10053] Se ha anulado una conexión establecida por el software en su equipo host
+2015-04-15 10:55:40,915 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:40] "GET /mail/static/src/js/mail_followers.js HTTP/1.1" 200 -
+2015-04-15 10:55:41,246 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:41] "GET /point_of_sale/static/lib/fastclick.js HTTP/1.1" 200 -
+2015-04-15 10:55:41,575 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:41] "GET /point_of_sale/static/src/js/db.js HTTP/1.1" 200 -
+2015-04-15 10:55:41,913 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:41] "GET /point_of_sale/static/src/js/models.js HTTP/1.1" 200 -
+2015-04-15 10:55:42,269 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:42] "GET /point_of_sale/static/src/js/widgets.js HTTP/1.1" 200 -
+2015-04-15 10:55:42,618 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:42] "GET /point_of_sale/static/src/js/devices.js HTTP/1.1" 200 -
+2015-04-15 10:55:42,960 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:42] "GET /point_of_sale/static/src/js/screens.js HTTP/1.1" 200 -
+2015-04-15 10:55:43,319 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:43] "GET /sales_team/static/src/js/sales_team.js HTTP/1.1" 200 -
+2015-04-15 10:55:43,667 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:43] "GET /share/static/src/js/share.js HTTP/1.1" 200 -
+2015-04-15 10:55:44,019 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:44] "GET /stock/static/src/js/widgets.js HTTP/1.1" 200 -
+2015-04-15 10:55:44,365 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:44] "GET /web_calendar/static/lib/fullcalendar/js/fullcalendar.js HTTP/1.1" 200 -
+2015-04-15 10:55:44,778 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:44] "GET /web_calendar/static/src/js/web_calendar.js HTTP/1.1" 200 -
+2015-04-15 10:55:45,128 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:45] "GET /web_diagram/static/lib/js/jquery.mousewheel.js HTTP/1.1" 200 -
+2015-04-15 10:55:45,460 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:45] "GET /web_diagram/static/lib/js/raphael.js HTTP/1.1" 200 -
+2015-04-15 10:55:45,884 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:45] "GET /web_diagram/static/src/js/graph.js HTTP/1.1" 200 -
+2015-04-15 10:55:46,226 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:46] "GET /web_diagram/static/src/js/diagram.js HTTP/1.1" 200 -
+2015-04-15 10:55:46,575 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:46] "GET /web_gantt/static/lib/dhtmlxGantt/sources/dhtmlxcommon.js HTTP/1.1" 200 -
+2015-04-15 10:55:46,917 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:46] "GET /web_gantt/static/lib/dhtmlxGantt/sources/dhtmlxgantt.js HTTP/1.1" 200 -
+2015-04-15 10:55:47,384 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:47] "GET /web_gantt/static/src/js/gantt.js HTTP/1.1" 200 -
+2015-04-15 10:55:47,740 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:47] "GET /web_graph/static/lib/nvd3/d3.v3.js HTTP/1.1" 200 -
+2015-04-15 10:55:48,233 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:48] "GET /web_graph/static/lib/nvd3/nv.d3.js HTTP/1.1" 200 -
+2015-04-15 10:55:48,709 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:48] "GET /web_graph/static/src/js/graph_view.js HTTP/1.1" 200 -
+2015-04-15 10:55:49,045 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:49] "GET /web_graph/static/src/js/graph_widget.js HTTP/1.1" 200 -
+2015-04-15 10:55:49,381 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:49] "GET /web_kanban/static/src/js/kanban.js HTTP/1.1" 200 -
+2015-04-15 10:55:49,733 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:49] "GET /web_kanban_gauge/static/lib/justgage/justgage.js HTTP/1.1" 200 -
+2015-04-15 10:55:50,076 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:50] "GET /web_kanban_sparkline/static/lib/jquery.sparkline/jquery.sparkline.js HTTP/1.1" 200 -
+2015-04-15 10:55:50,453 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:50] "GET /web_view_editor/static/src/js/view_editor.js HTTP/1.1" 200 -
+2015-04-15 10:55:51,816 10260 INFO desarrollo openerp.service.common: successful login from 'admin' using database 'desarrollo'
+2015-04-15 10:55:52,030 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:52] "POST /web/session/get_session_info HTTP/1.1" 200 -
+2015-04-15 10:55:53,134 10260 INFO None werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:53] "POST /web/proxy/load HTTP/1.1" 200 -
+2015-04-15 10:55:53,897 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:53] "POST /web/session/modules HTTP/1.1" 200 -
+2015-04-15 10:55:54,894 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:54] "POST /web/webclient/translations HTTP/1.1" 200 -
+2015-04-15 10:55:55,644 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:55] "POST /web/dataset/call_kw/res.users/has_group HTTP/1.1" 200 -
+2015-04-15 10:55:55,706 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:55] "POST /web/dataset/call_kw/res.users/read HTTP/1.1" 200 -
+2015-04-15 10:55:55,730 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:55] "POST /web/dataset/call_kw/res.users/read HTTP/1.1" 200 -
+2015-04-15 10:55:55,917 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:55] "POST /web/action/load HTTP/1.1" 200 -
+2015-04-15 10:55:56,049 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:56] "POST /calendar/notify HTTP/1.1" 200 -
+2015-04-15 10:55:56,094 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:56] "POST /web/dataset/call_kw/res.users/has_group HTTP/1.1" 200 -
+2015-04-15 10:55:56,141 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:56] "POST /im_chat/init HTTP/1.1" 200 -
+2015-04-15 10:55:56,262 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:56] "POST /web/dataset/call_kw/share.wizard/has_share HTTP/1.1" 200 -
+2015-04-15 10:55:56,573 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:56] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2015-04-15 10:55:56,601 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:56] "POST /web/dataset/call_kw/account.invoice/fields_view_get HTTP/1.1" 200 -
+2015-04-15 10:55:56,802 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:56] "POST /web/dataset/call_kw/account.invoice/fields_view_get HTTP/1.1" 200 -
+2015-04-15 10:55:56,940 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:56] "POST /web/dataset/call_kw/ir.filters/get_filters HTTP/1.1" 200 -
+2015-04-15 10:55:57,137 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:57] "POST /web/dataset/call_kw/account.invoice/fields_get HTTP/1.1" 200 -
+2015-04-15 10:55:57,148 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:57] "GET /web/binary/image?model=res.users&field=image_small&id=1 HTTP/1.1" 304 -
+2015-04-15 10:55:57,838 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:57] "POST /web/dataset/call_kw/account.invoice/fields_view_get HTTP/1.1" 200 -
+2015-04-15 10:55:58,035 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:58] "POST /web/menu/load_needaction HTTP/1.1" 200 -
+2015-04-15 10:55:58,513 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:58] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2015-04-15 10:55:59,283 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:55:59] "POST /web/dataset/call_kw/account.invoice/fields_view_get HTTP/1.1" 200 -
+2015-04-15 10:56:00,302 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:56:00] "POST /web/dataset/call_kw/account.invoice/read HTTP/1.1" 200 -
+2015-04-15 10:56:00,325 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:56:00] "POST /web/dataset/call_kw/account.invoice/read HTTP/1.1" 200 -
+2015-04-15 10:56:00,677 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:56:00] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2015-04-15 10:56:00,697 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:56:00] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2015-04-15 10:56:00,721 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:56:00] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2015-04-15 10:56:00,730 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:56:00] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2015-04-15 10:56:01,026 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:56:01] "POST /web/dataset/call_kw/res.partner/name_get HTTP/1.1" 200 -
+2015-04-15 10:56:01,062 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:56:01] "POST /web/dataset/call_kw/res.company/name_search HTTP/1.1" 200 -
+2015-04-15 10:56:01,098 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:56:01] "POST /web/dataset/call_kw/account.invoice/read_followers_data HTTP/1.1" 200 -
+2015-04-15 10:56:01,305 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:56:01] "POST /web/dataset/call_kw/mail.message/message_read HTTP/1.1" 200 -
+2015-04-15 10:56:01,398 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:56:01] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2015-04-15 10:56:01,426 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:56:01] "POST /web/dataset/call_kw/res.partner/name_get HTTP/1.1" 200 -
+2015-04-15 10:56:01,457 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:56:01] "POST /web/dataset/call_kw/account.invoice/read_followers_data HTTP/1.1" 200 -
+2015-04-15 10:56:01,802 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:56:01] "POST /web/dataset/call_kw/mail.message/set_message_read HTTP/1.1" 200 -
+2015-04-15 10:56:01,825 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:56:01] "POST /web/dataset/call_kw/account.invoice/message_get_subscription_data HTTP/1.1" 200 -
+2015-04-15 10:56:01,842 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:56:01] "POST /web/dataset/call_kw/mail.message/message_read HTTP/1.1" 200 -
+2015-04-15 10:56:01,894 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:56:01] "POST /web/dataset/call_kw/account.invoice.line/read HTTP/1.1" 200 -
+2015-04-15 10:56:02,181 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:56:02] "POST /web/dataset/call_kw/account.invoice/message_get_subscription_data HTTP/1.1" 200 -
+2015-04-15 10:56:02,194 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:56:02] "POST /web/dataset/call_kw/mail.message/set_message_read HTTP/1.1" 200 -
+2015-04-15 10:56:02,197 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:56:02] "POST /web/dataset/call_kw/account.tax/name_get HTTP/1.1" 200 -
+2015-04-15 10:56:02,286 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:56:02] "POST /web/dataset/call_kw/account.tax/name_get HTTP/1.1" 200 -
+2015-04-15 10:56:02,543 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:56:02] "POST /web/dataset/call_kw/account.invoice.tax/read HTTP/1.1" 200 -
+2015-04-15 10:56:02,588 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:56:02] "GET /web/binary/image?model=res.partner&field=image_small&id=3&resize= HTTP/1.1" 304 -
+2015-04-15 10:56:02,588 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:56:02] "GET /web/binary/image?model=res.partner&field=image_small&id=12&resize= HTTP/1.1" 304 -
+2015-04-15 10:56:02,957 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:56:02] "POST /web/dataset/call_kw/account.tax/name_get HTTP/1.1" 200 -
+2015-04-15 10:56:02,984 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:56:02] "POST /web/dataset/call_kw/account.tax/name_get HTTP/1.1" 200 -
+2015-04-15 10:56:03,079 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:56:03] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2015-04-15 10:56:03,144 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:56:03] "POST /web/dataset/call_kw/account.tax/name_get HTTP/1.1" 200 -
+2015-04-15 10:56:03,295 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:56:03] "POST /web/dataset/call_kw/account.tax/name_get HTTP/1.1" 200 -
+2015-04-15 10:56:28,394 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:56:28] "POST /longpolling/poll HTTP/1.1" 200 -
+2015-04-15 10:56:46,667 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:56:46] "POST /longpolling/poll HTTP/1.1" 200 -
+2015-04-15 10:57:18,769 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:57:18] "POST /longpolling/poll HTTP/1.1" 200 -
+2015-04-15 10:57:37,068 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:57:37] "POST /longpolling/poll HTTP/1.1" 200 -
+2015-04-15 10:57:42,012 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:57:42] "POST /web/action/load HTTP/1.1" 200 -
+2015-04-15 10:57:42,381 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:57:42] "POST /report/check_wkhtmltopdf HTTP/1.1" 200 -
+2015-04-15 10:57:43,242 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:57:43] "GET /report/html/account.report_invoice/20 HTTP/1.1" 200 -
+2015-04-15 10:57:45,657 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:57:45] "POST /web/webclient/translations HTTP/1.1" 200 -
+2015-04-15 10:57:50,992 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:57:50] "POST /web/action/load HTTP/1.1" 200 -
+2015-04-15 10:57:51,918 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:57:51] "POST /web/dataset/call_kw/account.invoice/fields_view_get HTTP/1.1" 200 -
+2015-04-15 10:57:52,032 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:57:52] "POST /web/dataset/call_kw/account.invoice/fields_view_get HTTP/1.1" 200 -
+2015-04-15 10:57:52,328 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:57:52] "POST /web/dataset/call_kw/ir.filters/get_filters HTTP/1.1" 200 -
+2015-04-15 10:57:52,377 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:57:52] "POST /web/dataset/call_kw/account.invoice/fields_get HTTP/1.1" 200 -
+2015-04-15 10:57:52,911 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:57:52] "POST /web/dataset/call_kw/account.invoice/fields_view_get HTTP/1.1" 200 -
+2015-04-15 10:57:53,568 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:57:53] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2015-04-15 10:57:55,740 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:57:55] "POST /web/dataset/call_kw/account.invoice/fields_view_get HTTP/1.1" 200 -
+2015-04-15 10:57:56,892 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:57:56] "POST /web/dataset/call_kw/account.invoice/read HTTP/1.1" 200 -
+2015-04-15 10:57:57,290 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:57:57] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2015-04-15 10:57:57,315 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:57:57] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2015-04-15 10:57:57,342 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:57:57] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2015-04-15 10:57:57,362 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:57:57] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2015-04-15 10:57:57,627 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:57:57] "POST /web/dataset/call_kw/res.partner/name_get HTTP/1.1" 200 -
+2015-04-15 10:57:57,667 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:57:57] "POST /web/dataset/call_kw/res.company/name_search HTTP/1.1" 200 -
+2015-04-15 10:57:57,734 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:57:57] "POST /web/dataset/call_kw/account.invoice/read_followers_data HTTP/1.1" 200 -
+2015-04-15 10:57:57,875 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:57:57] "POST /web/dataset/call_kw/mail.message/message_read HTTP/1.1" 200 -
+2015-04-15 10:57:57,947 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:57:57] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2015-04-15 10:57:58,270 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:57:58] "POST /web/dataset/call_kw/account.invoice/message_get_subscription_data HTTP/1.1" 200 -
+2015-04-15 10:57:58,295 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:57:58] "POST /web/dataset/call_kw/mail.message/set_message_read HTTP/1.1" 200 -
+2015-04-15 10:57:58,315 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:57:58] "GET /web/binary/image?model=res.partner&field=image_small&id=5&resize= HTTP/1.1" 200 -
+2015-04-15 10:57:58,342 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:57:58] "POST /web/dataset/call_kw/account.invoice.line/read HTTP/1.1" 200 -
+2015-04-15 10:57:58,598 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:57:58] "GET /web/binary/image?model=res.partner&field=image_small&id=7&resize= HTTP/1.1" 200 -
+2015-04-15 10:58:00,029 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:58:00] "POST /web/dataset/call_button HTTP/1.1" 200 -
+2015-04-15 10:58:00,592 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:58:00] "POST /web/dataset/call_kw/mail.compose.message/fields_view_get HTTP/1.1" 200 -
+2015-04-15 10:58:01,142 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:58:01] "POST /web/menu/load_needaction HTTP/1.1" 200 -
+2015-04-15 10:58:02,625 10260 INFO desarrollo openerp.addons.report.models.report: Generating PDF on Windows platform require DPI >= 96. Using 96 instead.
+2015-04-15 10:58:02,655 10260 ERROR desarrollo openerp.http: Exception during JSON request handling.
+Traceback (most recent call last):
+  File "C:\Users\patri_000\desarrollo\odoo8\openerp\http.py", line 530, in _handle_exception
+    return super(JsonRequest, self)._handle_exception(exception)
+  File "C:\Users\patri_000\desarrollo\odoo8\openerp\http.py", line 567, in dispatch
+    result = self._call_function(**self.params)
+  File "C:\Users\patri_000\desarrollo\odoo8\openerp\http.py", line 303, in _call_function
+    return checked_call(self.db, *args, **kwargs)
+  File "C:\Users\patri_000\desarrollo\odoo8\openerp\service\model.py", line 113, in wrapper
+    return f(dbname, *args, **kwargs)
+  File "C:\Users\patri_000\desarrollo\odoo8\openerp\http.py", line 300, in checked_call
+    return self.endpoint(*a, **kw)
+  File "C:\Users\patri_000\desarrollo\odoo8\openerp\http.py", line 796, in __call__
+    return self.method(*args, **kw)
+  File "C:\Users\patri_000\desarrollo\odoo8\openerp\http.py", line 396, in response_wrap
+    response = f(*args, **kw)
+  File "C:\Users\patri_000\desarrollo\odoo8\openerp\addons\web\controllers\main.py", line 949, in call_kw
+    return self._call_kw(model, method, args, kwargs)
+  File "C:\Users\patri_000\desarrollo\odoo8\openerp\addons\web\controllers\main.py", line 941, in _call_kw
+    return getattr(request.registry.get(model), method)(request.cr, request.uid, *args, **kwargs)
+  File "C:\Users\patri_000\desarrollo\odoo8\openerp\api.py", line 241, in wrapper
+    return old_api(self, *args, **kwargs)
+  File "C:\Users\patri_000\desarrollo\odoo8\openerp\addons\email_template\wizard\mail_compose_message.py", line 54, in default_get
+    res.get('model'), res.get('res_id'), context=context
+  File "C:\Users\patri_000\desarrollo\odoo8\openerp\api.py", line 241, in wrapper
+    return old_api(self, *args, **kwargs)
+  File "C:\Users\patri_000\desarrollo\odoo8\openerp\addons\email_template\wizard\mail_compose_message.py", line 103, in onchange_template_id
+    values = self.generate_email_for_composer_batch(cr, uid, template_id, [res_id], context=context)[res_id]
+  File "C:\Users\patri_000\desarrollo\odoo8\openerp\api.py", line 241, in wrapper
+    return old_api(self, *args, **kwargs)
+  File "C:\Users\patri_000\desarrollo\odoo8\openerp\addons\email_template\wizard\mail_compose_message.py", line 167, in generate_email_for_composer_batch
+    template_values = self.pool.get('email.template').generate_email_batch(cr, uid, template_id, res_ids, fields=fields, context=ctx)
+  File "C:\Users\patri_000\desarrollo\odoo8\openerp\api.py", line 241, in wrapper
+    return old_api(self, *args, **kwargs)
+  File "C:\Users\patri_000\desarrollo\odoo8\openerp\addons\email_template\email_template.py", line 514, in generate_email_batch
+    result, format = self.pool['report'].get_pdf(cr, uid, [res_id], report_service, context=ctx), 'pdf'
+  File "C:\Users\patri_000\desarrollo\odoo8\openerp\api.py", line 241, in wrapper
+    return old_api(self, *args, **kwargs)
+  File "C:\Users\patri_000\desarrollo\odoo8\openerp\addons\report\models\report.py", line 269, in get_pdf
+    paperformat, specific_paperformat_args, save_in_attachment
+  File "C:\Users\patri_000\desarrollo\odoo8\openerp\api.py", line 241, in wrapper
+    return old_api(self, *args, **kwargs)
+  File "C:\Users\patri_000\desarrollo\odoo8\openerp\addons\report\models\report.py", line 442, in _run_wkhtmltopdf
+    wkhtmltopdf = [_get_wkhtmltopdf_bin()] + command_args + local_command_args
+  File "C:\Users\patri_000\desarrollo\odoo8\openerp\addons\report\models\report.py", line 54, in _get_wkhtmltopdf_bin
+    raise IOError
+IOError
+2015-04-15 10:58:02,671 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:58:02] "POST /web/dataset/call_kw/mail.compose.message/default_get HTTP/1.1" 200 -
+2015-04-15 10:58:09,125 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:58:09] "POST /longpolling/poll HTTP/1.1" 200 -
+2015-04-15 10:58:27,483 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:58:27] "POST /longpolling/poll HTTP/1.1" 200 -
+2015-04-15 10:58:59,490 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:58:59] "POST /longpolling/poll HTTP/1.1" 200 -
+2015-04-15 10:59:03,526 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:59:03] "POST /web/dataset/call_kw/account.invoice/search_read HTTP/1.1" 200 -
+2015-04-15 10:59:03,910 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:59:03] "POST /web/dataset/call_kw/res.partner/name_get HTTP/1.1" 200 -
+2015-04-15 10:59:03,970 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:59:03] "POST /web/dataset/call_kw/account.invoice/read_followers_data HTTP/1.1" 200 -
+2015-04-15 10:59:04,092 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:59:04] "POST /web/dataset/call_kw/mail.message/message_read HTTP/1.1" 200 -
+2015-04-15 10:59:04,134 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:59:04] "POST /web/dataset/call_kw/account.invoice.line/read HTTP/1.1" 200 -
+2015-04-15 10:59:04,345 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:59:04] "POST /web/dataset/call_kw/account.invoice/message_get_subscription_data HTTP/1.1" 200 -
+2015-04-15 10:59:04,509 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:59:04] "POST /web/dataset/call_kw/mail.message/set_message_read HTTP/1.1" 200 -
+2015-04-15 10:59:04,594 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:59:04] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2015-04-15 10:59:07,539 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:59:07] "GET /web/session/logout HTTP/1.1" 303 -
+2015-04-15 10:59:08,065 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:59:08] "GET /web HTTP/1.1" 200 -
+2015-04-15 10:59:10,558 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:59:10] "GET /web/login?redirect=http%3A%2F%2Flocalhost%3A8069%2Fweb HTTP/1.1" 200 -
+2015-04-15 10:59:17,862 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:59:17] "POST /longpolling/poll HTTP/1.1" 200 -
+2015-04-15 10:59:17,878 10260 ERROR desarrollo openerp.service.server: Exception happened during processing of request from ('127.0.0.1', 63212)
+Traceback (most recent call last):
+  File "C:\Python27\lib\SocketServer.py", line 599, in process_request_thread
+    self.finish_request(request, client_address)
+  File "C:\Python27\lib\SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "C:\Python27\lib\SocketServer.py", line 657, in __init__
+    self.finish()
+  File "C:\Python27\lib\SocketServer.py", line 716, in finish
+    self.wfile.close()
+  File "C:\Python27\lib\socket.py", line 279, in close
+    self.flush()
+  File "C:\Python27\lib\socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 10053] Se ha anulado una conexión establecida por el software en su equipo host
+2015-04-15 10:59:23,948 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:59:23] "POST /web/login HTTP/1.1" 200 -
+2015-04-15 10:59:26,025 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:59:26] "GET /web HTTP/1.1" 200 -
+2015-04-15 10:59:28,525 10260 INFO desarrollo openerp.service.common: successful login from 'admin' using database 'desarrollo'
+2015-04-15 10:59:28,713 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:59:28] "POST /web/session/get_session_info HTTP/1.1" 200 -
+2015-04-15 10:59:30,092 10260 INFO None werkzeug: 127.0.0.1 - - [15/Apr/2015 10:59:30] "POST /web/proxy/load HTTP/1.1" 200 -
+2015-04-15 10:59:30,838 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:59:30] "POST /web/session/modules HTTP/1.1" 200 -
+2015-04-15 10:59:31,815 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:59:31] "POST /web/webclient/translations HTTP/1.1" 200 -
+2015-04-15 10:59:32,517 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:59:32] "POST /web/dataset/call_kw/res.users/has_group HTTP/1.1" 200 -
+2015-04-15 10:59:32,546 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:59:32] "POST /web/dataset/call_kw/res.users/read HTTP/1.1" 200 -
+2015-04-15 10:59:32,565 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:59:32] "POST /web/dataset/call_kw/res.users/read HTTP/1.1" 200 -
+2015-04-15 10:59:32,565 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:59:32] "POST /web/dataset/call_kw/res.users/read HTTP/1.1" 200 -
+2015-04-15 10:59:32,878 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:59:32] "POST /calendar/notify HTTP/1.1" 200 -
+2015-04-15 10:59:32,963 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:59:32] "POST /web/action/load HTTP/1.1" 200 -
+2015-04-15 10:59:33,048 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:59:33] "POST /web/action/load HTTP/1.1" 200 -
+2015-04-15 10:59:33,148 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:59:33] "POST /web/menu/load_needaction HTTP/1.1" 200 -
+2015-04-15 10:59:33,256 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:59:33] "POST /web/dataset/call_kw/res.users/has_group HTTP/1.1" 200 -
+2015-04-15 10:59:33,323 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:59:33] "POST /im_chat/init HTTP/1.1" 200 -
+2015-04-15 10:59:33,467 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:59:33] "POST /web/dataset/call_kw/mail.message/fields_view_get HTTP/1.1" 200 -
+2015-04-15 10:59:34,039 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:59:34] "POST /web/dataset/call_kw/mail.group/get_suggested_thread HTTP/1.1" 200 -
+2015-04-15 10:59:34,075 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:59:34] "POST /web/dataset/call_kw/hr.employee/get_suggested_thread HTTP/1.1" 200 -
+2015-04-15 10:59:34,275 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:59:34] "POST /web/dataset/call_kw/res.users/get_serialised_gamification_summary HTTP/1.1" 200 -
+2015-04-15 10:59:34,391 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:59:34] "POST /web/dataset/call_kw/res.users/get_challenge_suggestions HTTP/1.1" 200 -
+2015-04-15 10:59:34,562 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:59:34] "POST /web/dataset/call_kw/mail.message/fields_view_get HTTP/1.1" 200 -
+2015-04-15 10:59:34,663 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:59:34] "POST /web/dataset/call_kw/mail.message/message_read HTTP/1.1" 200 -
+2015-04-15 10:59:34,986 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:59:34] "POST /web/dataset/call_kw/mail.group/get_suggested_thread HTTP/1.1" 200 -
+2015-04-15 10:59:35,259 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:59:35] "POST /web/dataset/call_kw/hr.employee/get_suggested_thread HTTP/1.1" 200 -
+2015-04-15 10:59:35,391 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:59:35] "POST /web/dataset/call_kw/res.users/get_challenge_suggestions HTTP/1.1" 200 -
+2015-04-15 10:59:35,486 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:59:35] "POST /web/dataset/call_kw/res.users/get_serialised_gamification_summary HTTP/1.1" 200 -
+2015-04-15 10:59:35,627 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:59:35] "POST /web/dataset/call_kw/mail.message/message_read HTTP/1.1" 200 -
+2015-04-15 10:59:35,638 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:59:35] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2015-04-15 10:59:35,831 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:59:35] "POST /web/dataset/call_kw/ir.filters/get_filters HTTP/1.1" 200 -
+2015-04-15 10:59:36,006 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:59:36] "POST /web/dataset/call_kw/mail.message/fields_get HTTP/1.1" 200 -
+2015-04-15 10:59:36,091 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:59:36] "POST /web/menu/load_needaction HTTP/1.1" 200 -
+2015-04-15 10:59:36,234 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:59:36] "POST /web/menu/load_needaction HTTP/1.1" 200 -
+2015-04-15 10:59:36,335 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:59:36] "GET /web/binary/image?model=res.users&field=image_small&id=1 HTTP/1.1" 200 -
+2015-04-15 10:59:36,427 10260 ERROR desarrollo openerp.addons.base.ir.ir_attachment: _read_file reading filestore\desarrollo\dc/dcf00aacce882bbfd117c0277e514f829b4c5bf0
+Traceback (most recent call last):
+  File "C:\Users\patri_000\desarrollo\odoo8\openerp\addons\base\ir\ir_attachment.py", line 126, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'filestore\\desarrollo\\dc/dcf00aacce882bbfd117c0277e514f829b4c5bf0'
+2015-04-15 10:59:36,430 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:59:36] "GET /web/binary/image?model=ir.attachment&field=datas&id=8&resize=100%252C80 HTTP/1.1" 200 -
+2015-04-15 10:59:36,463 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:59:36] "POST /web/action/load HTTP/1.1" 200 -
+2015-04-15 10:59:36,974 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:59:36] "POST /web/dataset/call_kw/share.wizard/has_share HTTP/1.1" 200 -
+2015-04-15 10:59:37,075 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:59:37] "POST /web/dataset/call_kw/crm.case.section/fields_view_get HTTP/1.1" 200 -
+2015-04-15 10:59:37,197 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:59:37] "POST /web/dataset/call_kw/crm.case.section/fields_view_get HTTP/1.1" 200 -
+2015-04-15 10:59:37,480 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:59:37] "POST /web/dataset/call_kw/ir.filters/get_filters HTTP/1.1" 200 -
+2015-04-15 10:59:37,506 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:59:37] "POST /web/dataset/call_kw/crm.case.section/fields_get HTTP/1.1" 200 -
+2015-04-15 10:59:38,907 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:59:38] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2015-04-15 10:59:39,321 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:59:39] "POST /web/action/load HTTP/1.1" 200 -
+2015-04-15 10:59:39,684 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:59:39] "POST /web/dataset/call_kw/res.partner/fields_view_get HTTP/1.1" 200 -
+2015-04-15 10:59:39,867 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:59:39] "POST /web/dataset/call_kw/ir.filters/get_filters HTTP/1.1" 200 -
+2015-04-15 10:59:40,098 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:59:40] "GET /web/binary/image?model=res.users&field=image_small&id=4 HTTP/1.1" 200 -
+2015-04-15 10:59:40,206 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:59:40] "POST /web/dataset/call_kw/res.partner/fields_get HTTP/1.1" 200 -
+2015-04-15 10:59:40,332 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:59:40] "POST /web/dataset/call_kw/res.partner/fields_view_get HTTP/1.1" 200 -
+2015-04-15 10:59:42,464 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:59:42] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2015-04-15 10:59:43,193 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:59:43] "POST /web/dataset/call_kw/res.partner.category/name_get HTTP/1.1" 200 -
+2015-04-15 10:59:43,276 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:59:43] "POST /web/dataset/call_kw/res.partner/fields_view_get HTTP/1.1" 200 -
+2015-04-15 10:59:43,325 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:59:43] "GET /web/binary/image?model=res.partner&field=image_small&id=7 HTTP/1.1" 200 -
+2015-04-15 10:59:43,341 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:59:43] "GET /web/binary/image?model=res.partner&field=image_small&id=43 HTTP/1.1" 200 -
+2015-04-15 10:59:43,516 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:59:43] "GET /web/binary/image?model=res.partner&field=image_small&id=18 HTTP/1.1" 200 -
+2015-04-15 10:59:43,608 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:59:43] "GET /web/binary/image?model=res.partner&field=image_small&id=12 HTTP/1.1" 200 -
+2015-04-15 10:59:43,697 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:59:43] "GET /web/binary/image?model=res.partner&field=image_small&id=48 HTTP/1.1" 200 -
+2015-04-15 10:59:43,744 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:59:43] "GET /web/binary/image?model=res.partner&field=image_small&id=49 HTTP/1.1" 200 -
+2015-04-15 10:59:43,852 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:59:43] "GET /web/binary/image?model=res.partner&field=image_small&id=14 HTTP/1.1" 200 -
+2015-04-15 10:59:43,953 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:59:43] "GET /web/binary/image?model=res.partner&field=image_small&id=51 HTTP/1.1" 200 -
+2015-04-15 10:59:44,025 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:59:44] "GET /web/binary/image?model=res.partner&field=image_small&id=17 HTTP/1.1" 200 -
+2015-04-15 10:59:44,069 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:59:44] "GET /web/binary/image?model=res.partner&field=image_small&id=19 HTTP/1.1" 200 -
+2015-04-15 10:59:44,296 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:59:44] "GET /web/binary/image?model=res.partner&field=image_small&id=59 HTTP/1.1" 200 -
+2015-04-15 10:59:44,388 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:59:44] "GET /web/binary/image?model=res.partner&field=image_small&id=8 HTTP/1.1" 200 -
+2015-04-15 10:59:44,415 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:59:44] "GET /web/binary/image?model=res.partner&field=image_small&id=44 HTTP/1.1" 200 -
+2015-04-15 10:59:44,632 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:59:44] "GET /web/binary/image?model=res.partner&field=image_small&id=46 HTTP/1.1" 200 -
+2015-04-15 10:59:44,710 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:59:44] "GET /web/binary/image?model=res.partner&field=image_small&id=47 HTTP/1.1" 200 -
+2015-04-15 10:59:44,898 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:59:44] "GET /web/binary/image?model=res.partner&field=image_small&id=26 HTTP/1.1" 200 -
+2015-04-15 10:59:44,973 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:59:44] "GET /web/binary/image?model=res.partner&field=image_small&id=66 HTTP/1.1" 200 -
+2015-04-15 10:59:45,051 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:59:45] "GET /web/binary/image?model=res.partner&field=image_small&id=65 HTTP/1.1" 200 -
+2015-04-15 10:59:45,253 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:59:45] "GET /web/binary/image?model=res.partner&field=image_small&id=64 HTTP/1.1" 200 -
+2015-04-15 10:59:45,315 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:59:45] "GET /web/binary/image?model=res.partner&field=image_small&id=16 HTTP/1.1" 200 -
+2015-04-15 10:59:45,348 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:59:45] "POST /web/dataset/call_kw/res.partner/read HTTP/1.1" 200 -
+2015-04-15 10:59:45,394 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:59:45] "GET /web/binary/image?model=res.partner&field=image_small&id=13 HTTP/1.1" 200 -
+2015-04-15 10:59:45,582 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:59:45] "POST /web/dataset/call_kw/res.partner.category/name_get HTTP/1.1" 200 -
+2015-04-15 10:59:45,678 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:59:45] "GET /web/binary/image?model=res.partner&field=image_small&id=50 HTTP/1.1" 200 -
+2015-04-15 10:59:45,755 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:59:45] "GET /web/binary/image?model=res.partner&field=image_small&id=20 HTTP/1.1" 200 -
+2015-04-15 10:59:45,779 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:59:45] "GET /web/binary/image?model=res.partner&field=image_small&id=60 HTTP/1.1" 200 -
+2015-04-15 10:59:45,914 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:59:45] "GET /web/binary/image?model=res.partner&field=image_small&id=22 HTTP/1.1" 200 -
+2015-04-15 10:59:46,118 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:59:46] "POST /web/dataset/call_kw/account.fiscal.position/name_search HTTP/1.1" 200 -
+2015-04-15 10:59:46,275 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:59:46] "POST /web/dataset/call_kw/account.payment.term/name_search HTTP/1.1" 200 -
+2015-04-15 10:59:46,331 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:59:46] "POST /web/dataset/call_kw/account.payment.term/name_search HTTP/1.1" 200 -
+2015-04-15 10:59:46,367 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:59:46] "POST /web/dataset/call_kw/res.partner/read_followers_data HTTP/1.1" 200 -
+2015-04-15 10:59:46,450 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:59:46] "POST /web/dataset/call_kw/mail.message/message_read HTTP/1.1" 200 -
+2015-04-15 10:59:46,598 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:59:46] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2015-04-15 10:59:46,730 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:59:46] "POST /web/dataset/call_kw/res.partner/read HTTP/1.1" 200 -
+2015-04-15 10:59:46,795 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:59:46] "POST /web/dataset/call_kw/mail.message/set_message_read HTTP/1.1" 200 -
+2015-04-15 10:59:46,927 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:59:46] "GET /web/binary/image?model=res.partner&id=7&field=image_medium&t=1429106385471 HTTP/1.1" 200 -
+2015-04-15 10:59:47,056 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:59:47] "GET /web/binary/image?model=res.partner&field=image_small&id=61 HTTP/1.1" 200 -
+2015-04-15 10:59:47,413 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:59:47] "POST /web/dataset/call_kw/res.users/fields_view_get HTTP/1.1" 200 -
+2015-04-15 10:59:49,848 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:59:49] "POST /longpolling/poll HTTP/1.1" 200 -
+2015-04-15 10:59:51,460 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:59:51] "POST /web/dataset/call_kw/res.partner.category/name_get HTTP/1.1" 200 -
+2015-04-15 10:59:52,101 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:59:52] "GET /web/binary/image?model=res.partner&id=7&field=image_medium&t=1429106391008 HTTP/1.1" 200 -
+2015-04-15 10:59:52,255 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:59:52] "POST /web/dataset/call_kw/res.partner/default_get HTTP/1.1" 200 -
+2015-04-15 10:59:52,315 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:59:52] "POST /web/dataset/call_kw/res.users/fields_view_get HTTP/1.1" 200 -
+2015-04-15 10:59:52,700 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:59:52] "POST /web/dataset/call_kw/res.partner/read_followers_data HTTP/1.1" 200 -
+2015-04-15 10:59:53,111 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:59:53] "POST /web/dataset/call_kw/res.partner/onchange HTTP/1.1" 200 -
+2015-04-15 10:59:59,727 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 10:59:59] "POST /web/webclient/version_info HTTP/1.1" 200 -
+2015-04-15 11:00:03,655 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:03] "GET /web?debug= HTTP/1.1" 200 -
+2015-04-15 11:00:04,240 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:04] "GET /web/static/lib/cleditor/jquery.cleditor.css HTTP/1.1" 200 -
+2015-04-15 11:00:04,283 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:04] "GET /web/static/lib/jquery.textext/jquery.textext.css HTTP/1.1" 200 -
+2015-04-15 11:00:04,323 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:04] "GET /web/static/lib/select2/select2.css HTTP/1.1" 200 -
+2015-04-15 11:00:04,328 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:04] "GET /web/static/lib/jquery.ui.bootstrap/css/custom-theme/jquery-ui-1.9.0.custom.css HTTP/1.1" 200 -
+2015-04-15 11:00:04,335 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:04] "GET /web/static/lib/jquery.ui.timepicker/css/jquery-ui-timepicker-addon.css HTTP/1.1" 200 -
+2015-04-15 11:00:04,558 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:04] "GET /web/static/lib/jquery.ui.notify/css/ui.notify.css HTTP/1.1" 200 -
+2015-04-15 11:00:04,601 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:04] "GET /web/static/src/css/data_export.css HTTP/1.1" 200 -
+2015-04-15 11:00:04,654 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:04] "GET /base/static/src/css/modules.css HTTP/1.1" 200 -
+2015-04-15 11:00:04,674 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:04] "GET /account/static/src/css/account_move_reconciliation.css HTTP/1.1" 200 -
+2015-04-15 11:00:04,690 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:04] "GET /account/static/src/css/account_move_line_quickadd.css HTTP/1.1" 200 -
+2015-04-15 11:00:04,874 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:04] "GET /account/static/src/css/account_bank_and_cash.css HTTP/1.1" 200 -
+2015-04-15 11:00:04,917 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:04] "GET /account/static/src/css/account_bank_statement_reconciliation.css HTTP/1.1" 200 -
+2015-04-15 11:00:04,973 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:04] "GET /account_analytic_analysis/static/src/css/analytic.css HTTP/1.1" 200 -
+2015-04-15 11:00:04,993 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:04] "GET /base_import/static/src/css/import.css HTTP/1.1" 200 -
+2015-04-15 11:00:05,006 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:05] "GET /base_setup/static/src/css/base_setup.css HTTP/1.1" 200 -
+2015-04-15 11:00:05,217 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:05] "GET /board/static/src/css/dashboard.css HTTP/1.1" 200 -
+2015-04-15 11:00:05,233 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:05] "GET /calendar/static/src/css/calendar.css HTTP/1.1" 200 -
+2015-04-15 11:00:05,286 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:05] "GET /gamification/static/src/css/gamification.css HTTP/1.1" 200 -
+2015-04-15 11:00:05,313 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:05] "GET /hr/static/src/css/hr.css HTTP/1.1" 200 -
+2015-04-15 11:00:05,390 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:05] "GET /hr_attendance/static/src/css/attendance.css HTTP/1.1" 200 -
+2015-04-15 11:00:05,533 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:05] "GET /hr_recruitment/static/src/css/job_position.css HTTP/1.1" 200 -
+2015-04-15 11:00:05,542 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:05] "GET /hr_timesheet_sheet/static/src/css/timesheet.css HTTP/1.1" 200 -
+2015-04-15 11:00:05,594 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:05] "GET /im_chat/static/src/css/im_common.css HTTP/1.1" 200 -
+2015-04-15 11:00:05,630 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:05] "GET /im_chat/static/src/css/im_chat.css HTTP/1.1" 200 -
+2015-04-15 11:00:05,710 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:05] "GET /mail/static/src/css/mail.css HTTP/1.1" 200 -
+2015-04-15 11:00:05,865 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:05] "GET /mail/static/src/css/announcement.css HTTP/1.1" 200 -
+2015-04-15 11:00:05,865 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:05] "GET /mail/static/src/css/mail_group.css HTTP/1.1" 200 -
+2015-04-15 11:00:05,910 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:05] "GET /portal/static/src/css/portal.css HTTP/1.1" 200 -
+2015-04-15 11:00:05,950 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:05] "GET /sales_team/static/src/css/sales_team.css HTTP/1.1" 200 -
+2015-04-15 11:00:06,033 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:06] "GET /share/static/src/css/share.css HTTP/1.1" 200 -
+2015-04-15 11:00:06,194 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:06] "GET /stock/static/src/css/stock.css HTTP/1.1" 200 -
+2015-04-15 11:00:06,206 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:06] "GET /web_calendar/static/src/css/web_fullcalendar.css HTTP/1.1" 200 -
+2015-04-15 11:00:06,221 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:06] "GET /web_calendar/static/lib/fullcalendar/css/fullcalendar.css HTTP/1.1" 200 -
+2015-04-15 11:00:06,262 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:06] "GET /web_diagram/static/src/css/base_diagram.css HTTP/1.1" 200 -
+2015-04-15 11:00:06,349 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:06] "GET /web_gantt/static/src/css/gantt.css HTTP/1.1" 200 -
+2015-04-15 11:00:06,509 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:06] "GET /web_gantt/static/lib/dhtmlxGantt/codebase/dhtmlxgantt.css HTTP/1.1" 200 -
+2015-04-15 11:00:06,529 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:06] "GET /web_graph/static/src/css/graph.css HTTP/1.1" 200 -
+2015-04-15 11:00:06,549 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:06] "GET /web_graph/static/src/css/nv.d3.css HTTP/1.1" 200 -
+2015-04-15 11:00:06,578 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:06] "GET /web_kanban/static/src/css/kanban.css HTTP/1.1" 200 -
+2015-04-15 11:00:06,665 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:06] "GET /web_tests/static/src/css/web_tests.css HTTP/1.1" 200 -
+2015-04-15 11:00:06,829 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:06] "GET /web_view_editor/static/src/css/view_editor.css HTTP/1.1" 200 -
+2015-04-15 11:00:06,858 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:06] "GET /website/static/src/css/website.backend.css HTTP/1.1" 200 -
+2015-04-15 11:00:06,865 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:06] "GET /web/static/lib/es5-shim/es5-shim.min.js HTTP/1.1" 200 -
+2015-04-15 11:00:06,890 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:06] "GET /web/static/lib/underscore/underscore.js HTTP/1.1" 200 -
+2015-04-15 11:00:06,986 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:06] "GET /web/static/lib/underscore.string/lib/underscore.string.js HTTP/1.1" 200 -
+2015-04-15 11:00:07,150 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:07] "GET /web/static/lib/datejs/globalization/en-US.js HTTP/1.1" 200 -
+2015-04-15 11:00:07,181 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:07] "GET /web/static/lib/spinjs/spin.js HTTP/1.1" 200 -
+2015-04-15 11:00:07,197 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:07] "GET /web/static/lib/jquery/jquery.js HTTP/1.1" 200 -
+2015-04-15 11:00:07,266 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:07] "GET /web/static/lib/jquery.blockUI/jquery.blockUI.js HTTP/1.1" 200 -
+2015-04-15 11:00:07,305 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:07] "GET /web/static/lib/jquery.hotkeys/jquery.hotkeys.js HTTP/1.1" 200 -
+2015-04-15 11:00:07,470 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:07] "GET /web/static/lib/jquery.placeholder/jquery.placeholder.js HTTP/1.1" 200 -
+2015-04-15 11:00:07,502 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:07] "GET /web/static/lib/jquery.timeago/jquery.timeago.js HTTP/1.1" 200 -
+2015-04-15 11:00:07,573 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:07] "GET /web/static/lib/jquery.form/jquery.form.js HTTP/1.1" 200 -
+2015-04-15 11:00:07,594 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:07] "GET /web/static/lib/jquery.ba-bbq/jquery.ba-bbq.js HTTP/1.1" 200 -
+2015-04-15 11:00:07,618 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:07] "GET /web/static/lib/qweb/qweb2.js HTTP/1.1" 200 -
+2015-04-15 11:00:07,786 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:07] "GET /web/static/src/js/openerpframework.js HTTP/1.1" 200 -
+2015-04-15 11:00:07,818 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:07] "GET /web/static/src/js/tour.js HTTP/1.1" 200 -
+2015-04-15 11:00:07,890 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:07] "GET /web/static/lib/datejs/core.js HTTP/1.1" 200 -
+2015-04-15 11:00:07,910 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:07] "GET /web/static/lib/datejs/parser.js HTTP/1.1" 200 -
+2015-04-15 11:00:07,934 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:07] "GET /web/static/lib/datejs/sugarpak.js HTTP/1.1" 200 -
+2015-04-15 11:00:08,118 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:08] "GET /web/static/lib/datejs/extras.js HTTP/1.1" 200 -
+2015-04-15 11:00:08,145 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:08] "GET /web/static/lib/jquery.validate/jquery.validate.js HTTP/1.1" 200 -
+2015-04-15 11:00:08,201 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:08] "GET /web/static/lib/jquery.autosize/jquery.autosize.js HTTP/1.1" 200 -
+2015-04-15 11:00:08,226 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:08] "GET /web/static/lib/jquery.scrollTo/jquery.scrollTo-min.js HTTP/1.1" 200 -
+2015-04-15 11:00:08,246 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:08] "GET /web/static/lib/cleditor/jquery.cleditor.js HTTP/1.1" 200 -
+2015-04-15 11:00:08,437 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:08] "GET /web/static/lib/jquery.textext/jquery.textext.js HTTP/1.1" 200 -
+2015-04-15 11:00:08,482 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:08] "GET /web/static/lib/select2/select2.js HTTP/1.1" 200 -
+2015-04-15 11:00:08,522 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:08] "GET /web/static/lib/bootstrap/js/bootstrap.js HTTP/1.1" 200 -
+2015-04-15 11:00:08,542 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:08] "GET /web/static/lib/jquery.ui/js/jquery-ui-1.9.1.custom.js HTTP/1.1" 200 -
+2015-04-15 11:00:08,565 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:08] "GET /web/static/lib/jquery.ui.timepicker/js/jquery-ui-timepicker-addon.js HTTP/1.1" 200 -
+2015-04-15 11:00:08,786 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:08] "GET /web/static/lib/jquery.ui.notify/js/jquery.notify.js HTTP/1.1" 200 -
+2015-04-15 11:00:08,825 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:08] "GET /web/static/lib/backbone/backbone.js HTTP/1.1" 200 -
+2015-04-15 11:00:08,845 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:08] "GET /web/static/lib/py.js/lib/py.js HTTP/1.1" 200 -
+2015-04-15 11:00:08,905 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:08] "GET /web/static/src/js/boot.js HTTP/1.1" 200 -
+2015-04-15 11:00:08,953 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:08] "GET /web/static/src/js/testing.js HTTP/1.1" 200 -
+2015-04-15 11:00:09,101 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:09] "GET /web/static/src/js/pyeval.js HTTP/1.1" 200 -
+2015-04-15 11:00:09,161 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:09] "GET /web/static/src/js/core.js HTTP/1.1" 200 -
+2015-04-15 11:00:09,174 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:09] "GET /web/static/src/js/formats.js HTTP/1.1" 200 -
+2015-04-15 11:00:09,210 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:09] "GET /web/static/src/js/chrome.js HTTP/1.1" 200 -
+2015-04-15 11:00:09,262 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:09] "GET /web/static/src/js/views.js HTTP/1.1" 200 -
+2015-04-15 11:00:09,421 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:09] "GET /web/static/src/js/data.js HTTP/1.1" 200 -
+2015-04-15 11:00:09,482 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:09] "GET /web/static/src/js/data_export.js HTTP/1.1" 200 -
+2015-04-15 11:00:09,493 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:09] "GET /web/static/src/js/search.js HTTP/1.1" 200 -
+2015-04-15 11:00:09,529 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:09] "GET /web/static/src/js/view_list.js HTTP/1.1" 200 -
+2015-04-15 11:00:09,598 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:09] "GET /web/static/src/js/view_form.js HTTP/1.1" 200 -
+2015-04-15 11:00:09,742 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:09] "GET /web/static/src/js/view_list_editable.js HTTP/1.1" 200 -
+2015-04-15 11:00:09,798 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:09] "GET /web/static/src/js/view_tree.js HTTP/1.1" 200 -
+2015-04-15 11:00:09,834 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:09] "GET /base/static/src/js/apps.js HTTP/1.1" 200 -
+2015-04-15 11:00:09,858 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:09] "GET /account/static/src/js/account_widgets.js HTTP/1.1" 200 -
+2015-04-15 11:00:09,953 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:09] "GET /account/static/src/js/account_move_line_quickadd.js HTTP/1.1" 200 -
+2015-04-15 11:00:10,058 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:10] "GET /account/static/src/js/account_tour_bank_statement_reconciliation.js HTTP/1.1" 200 -
+2015-04-15 11:00:10,114 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:10] "GET /base_import/static/lib/javascript-state-machine/state-machine.js HTTP/1.1" 200 -
+2015-04-15 11:00:10,154 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:10] "GET /base_import/static/src/js/import.js HTTP/1.1" 200 -
+2015-04-15 11:00:10,217 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:10] "GET /board/static/src/js/dashboard.js HTTP/1.1" 200 -
+2015-04-15 11:00:10,269 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:10] "GET /calendar/static/src/js/base_calendar.js HTTP/1.1" 200 -
+2015-04-15 11:00:10,374 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:10] "GET /document/static/src/js/document.js HTTP/1.1" 200 -
+2015-04-15 11:00:10,430 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:10] "GET /edi/static/src/js/edi.js HTTP/1.1" 200 -
+2015-04-15 11:00:10,477 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:10] "GET /gamification/static/src/js/gamification.js HTTP/1.1" 200 -
+2015-04-15 11:00:10,538 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:10] "GET /hr/static/src/js/suggestions.js HTTP/1.1" 200 -
+2015-04-15 11:00:10,589 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:10] "GET /hr_attendance/static/src/js/attendance.js HTTP/1.1" 200 -
+2015-04-15 11:00:10,690 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:10] "GET /hr_gamification/static/src/js/gamification.js HTTP/1.1" 200 -
+2015-04-15 11:00:10,752 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:10] "GET /hr_recruitment/static/src/js/job_position.js HTTP/1.1" 200 -
+2015-04-15 11:00:10,796 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:10] "GET /hr_timesheet_sheet/static/src/js/timesheet.js HTTP/1.1" 200 -
+2015-04-15 11:00:10,855 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:10] "GET /bus/static/src/js/bus.js HTTP/1.1" 200 -
+2015-04-15 11:00:10,907 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:10] "GET /im_chat/static/src/js/im_chat.js HTTP/1.1" 200 -
+2015-04-15 11:00:11,007 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:11] "GET /im_odoo_support/static/src/js/im_odoo_support.js HTTP/1.1" 200 -
+2015-04-15 11:00:11,068 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:11] "GET /mail/static/src/js/mail.js HTTP/1.1" 200 -
+2015-04-15 11:00:11,115 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:11] "GET /mail/static/src/js/mail_followers.js HTTP/1.1" 200 -
+2015-04-15 11:00:11,176 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:11] "GET /mail/static/src/js/many2many_tags_email.js HTTP/1.1" 200 -
+2015-04-15 11:00:11,227 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:11] "GET /mail/static/src/js/announcement.js HTTP/1.1" 200 -
+2015-04-15 11:00:11,332 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:11] "GET /mail/static/src/js/suggestions.js HTTP/1.1" 200 -
+2015-04-15 11:00:11,411 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:11] "GET /point_of_sale/static/lib/fastclick.js HTTP/1.1" 200 -
+2015-04-15 11:00:11,440 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:11] "GET /point_of_sale/static/lib/waitfont.js HTTP/1.1" 200 -
+2015-04-15 11:00:11,492 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:11] "GET /point_of_sale/static/src/js/db.js HTTP/1.1" 200 -
+2015-04-15 11:00:11,536 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:11] "GET /point_of_sale/static/src/js/models.js HTTP/1.1" 200 -
+2015-04-15 11:00:11,650 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:11] "GET /point_of_sale/static/src/js/widget_base.js HTTP/1.1" 200 -
+2015-04-15 11:00:11,733 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:11] "GET /point_of_sale/static/src/js/widget_keyboard.js HTTP/1.1" 200 -
+2015-04-15 11:00:11,757 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:11] "GET /point_of_sale/static/src/js/widgets.js HTTP/1.1" 200 -
+2015-04-15 11:00:11,805 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:11] "GET /point_of_sale/static/src/js/devices.js HTTP/1.1" 200 -
+2015-04-15 11:00:11,861 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:11] "GET /point_of_sale/static/src/js/screens.js HTTP/1.1" 200 -
+2015-04-15 11:00:11,970 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:11] "GET /point_of_sale/static/src/js/tests.js HTTP/1.1" 200 -
+2015-04-15 11:00:12,053 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:12] "GET /point_of_sale/static/src/js/main.js HTTP/1.1" 200 -
+2015-04-15 11:00:12,098 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:12] "GET /report/static/src/js/qwebactionmanager.js HTTP/1.1" 200 -
+2015-04-15 11:00:12,125 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:12] "GET /sales_team/static/src/js/sales_team.js HTTP/1.1" 200 -
+2015-04-15 11:00:12,210 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:12] "GET /share/static/src/js/share.js HTTP/1.1" 200 -
+2015-04-15 11:00:12,289 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:12] "GET /stock/static/src/js/widgets.js HTTP/1.1" 200 -
+2015-04-15 11:00:12,369 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:12] "GET /web_calendar/static/lib/fullcalendar/js/fullcalendar.js HTTP/1.1" 200 -
+2015-04-15 11:00:12,414 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:12] "GET /web_calendar/static/src/js/web_calendar.js HTTP/1.1" 200 -
+2015-04-15 11:00:12,437 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:12] "GET /web_diagram/static/lib/js/jquery.mousewheel.js HTTP/1.1" 200 -
+2015-04-15 11:00:12,533 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:12] "GET /web_diagram/static/lib/js/raphael.js HTTP/1.1" 200 -
+2015-04-15 11:00:12,625 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:12] "GET /web_diagram/static/src/js/vec2.js HTTP/1.1" 200 -
+2015-04-15 11:00:12,713 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:12] "GET /web_diagram/static/src/js/graph.js HTTP/1.1" 200 -
+2015-04-15 11:00:12,746 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:12] "GET /web_diagram/static/src/js/diagram.js HTTP/1.1" 200 -
+2015-04-15 11:00:12,757 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:12] "GET /web_gantt/static/lib/dhtmlxGantt/sources/dhtmlxcommon.js HTTP/1.1" 200 -
+2015-04-15 11:00:12,890 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:12] "GET /web_gantt/static/lib/dhtmlxGantt/sources/dhtmlxgantt.js HTTP/1.1" 200 -
+2015-04-15 11:00:12,941 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:12] "GET /web_gantt/static/src/js/gantt.js HTTP/1.1" 200 -
+2015-04-15 11:00:13,038 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:13] "GET /web_graph/static/lib/nvd3/d3.v3.js HTTP/1.1" 200 -
+2015-04-15 11:00:13,069 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:13] "GET /web_graph/static/lib/nvd3/nv.d3.js HTTP/1.1" 200 -
+2015-04-15 11:00:13,114 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:13] "GET /web_graph/static/src/js/graph_view.js HTTP/1.1" 200 -
+2015-04-15 11:00:13,266 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:13] "GET /web_graph/static/src/js/pivot_table.js HTTP/1.1" 200 -
+2015-04-15 11:00:13,278 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:13] "GET /web_graph/static/src/js/graph_widget.js HTTP/1.1" 200 -
+2015-04-15 11:00:13,437 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:13] "GET /web_kanban/static/src/js/kanban.js HTTP/1.1" 200 -
+2015-04-15 11:00:13,441 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:13] "GET /web_kanban_gauge/static/lib/justgage/justgage.js HTTP/1.1" 200 -
+2015-04-15 11:00:13,573 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:13] "GET /web_kanban_gauge/static/src/js/kanban_gauge.js HTTP/1.1" 200 -
+2015-04-15 11:00:13,585 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:13] "GET /web_kanban_sparkline/static/lib/jquery.sparkline/jquery.sparkline.js HTTP/1.1" 200 -
+2015-04-15 11:00:13,601 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:13] "GET /web_kanban_sparkline/static/src/js/kanban_sparkline.js HTTP/1.1" 200 -
+2015-04-15 11:00:13,782 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:13] "GET /web_tests/static/src/js/web_tests.js HTTP/1.1" 200 -
+2015-04-15 11:00:13,786 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:13] "GET /web_view_editor/static/src/js/view_editor.js HTTP/1.1" 200 -
+2015-04-15 11:00:13,885 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:13] "GET /website/static/src/js/website.backend.js HTTP/1.1" 200 -
+2015-04-15 11:00:13,914 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:13] "GET /web_kanban_gauge/static/lib/justgage/justgage.js HTTP/1.1" 200 -
+2015-04-15 11:00:14,250 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:14] "GET /web_kanban_sparkline/static/lib/jquery.sparkline/jquery.sparkline.js HTTP/1.1" 200 -
+2015-04-15 11:00:14,645 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:14] "GET /web_view_editor/static/src/js/view_editor.js HTTP/1.1" 200 -
+2015-04-15 11:00:16,562 10260 INFO desarrollo openerp.service.common: successful login from 'admin' using database 'desarrollo'
+2015-04-15 11:00:16,757 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:16] "POST /web/session/get_session_info HTTP/1.1" 200 -
+2015-04-15 11:00:18,164 10260 INFO None werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:18] "POST /web/proxy/load HTTP/1.1" 200 -
+2015-04-15 11:00:18,990 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:18] "POST /web/session/modules HTTP/1.1" 200 -
+2015-04-15 11:00:19,974 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:19] "POST /web/webclient/translations HTTP/1.1" 200 -
+2015-04-15 11:00:20,605 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:20] "POST /web/dataset/call_kw/res.users/has_group HTTP/1.1" 200 -
+2015-04-15 11:00:20,661 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:20] "POST /web/dataset/call_kw/res.users/read HTTP/1.1" 200 -
+2015-04-15 11:00:20,690 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:20] "POST /web/dataset/call_kw/res.users/read HTTP/1.1" 200 -
+2015-04-15 11:00:20,971 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:20] "POST /web/action/load HTTP/1.1" 200 -
+2015-04-15 11:00:21,000 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:21] "POST /calendar/notify HTTP/1.1" 200 -
+2015-04-15 11:00:21,036 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:21] "POST /web/dataset/call_kw/res.users/has_group HTTP/1.1" 200 -
+2015-04-15 11:00:21,092 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:21] "POST /im_chat/init HTTP/1.1" 200 -
+2015-04-15 11:00:21,328 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:21] "POST /web/dataset/call_kw/share.wizard/has_share HTTP/1.1" 200 -
+2015-04-15 11:00:21,588 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:21] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2015-04-15 11:00:21,733 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:21] "POST /web/dataset/call_kw/res.partner/fields_view_get HTTP/1.1" 200 -
+2015-04-15 11:00:21,950 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:21] "POST /web/dataset/call_kw/ir.filters/get_filters HTTP/1.1" 200 -
+2015-04-15 11:00:22,335 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:22] "POST /web/dataset/call_kw/res.partner/fields_view_get HTTP/1.1" 200 -
+2015-04-15 11:00:22,335 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:22] "GET /web/binary/image?model=res.users&field=image_small&id=1 HTTP/1.1" 200 -
+2015-04-15 11:00:22,473 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:22] "POST /web/dataset/call_kw/res.partner/fields_get HTTP/1.1" 200 -
+2015-04-15 11:00:23,717 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:23] "POST /web/menu/load_needaction HTTP/1.1" 200 -
+2015-04-15 11:00:24,417 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:24] "POST /web/dataset/call_kw/res.partner/fields_view_get HTTP/1.1" 200 -
+2015-04-15 11:00:24,450 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:24] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2015-04-15 11:00:25,578 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:25] "POST /web/dataset/call_kw/res.partner/default_get HTTP/1.1" 200 -
+2015-04-15 11:00:25,762 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:25] "POST /web/dataset/call_kw/res.partner.category/name_get HTTP/1.1" 200 -
+2015-04-15 11:00:25,762 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:25] "POST /longpolling/poll HTTP/1.1" 200 -
+2015-04-15 11:00:25,766 10260 ERROR desarrollo openerp.service.server: Exception happened during processing of request from ('127.0.0.1', 63310)
+Traceback (most recent call last):
+  File "C:\Python27\lib\SocketServer.py", line 599, in process_request_thread
+    self.finish_request(request, client_address)
+  File "C:\Python27\lib\SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "C:\Python27\lib\SocketServer.py", line 657, in __init__
+    self.finish()
+  File "C:\Python27\lib\SocketServer.py", line 716, in finish
+    self.wfile.close()
+  File "C:\Python27\lib\socket.py", line 279, in close
+    self.flush()
+  File "C:\Python27\lib\socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 10053] Se ha anulado una conexión establecida por el software en su equipo host
+2015-04-15 11:00:25,825 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:25] "GET /web/binary/image?model=res.partner&field=image_small&id=7 HTTP/1.1" 200 -
+2015-04-15 11:00:25,921 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:25] "GET /web/binary/image?model=res.partner&field=image_small&id=43 HTTP/1.1" 200 -
+2015-04-15 11:00:26,109 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:26] "GET /web/binary/image?model=res.partner&field=image_small&id=18 HTTP/1.1" 200 -
+2015-04-15 11:00:26,118 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:26] "POST /web/dataset/call_kw/res.partner/onchange HTTP/1.1" 200 -
+2015-04-15 11:00:26,145 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:26] "GET /web/binary/image?model=res.partner&field=image_small&id=12 HTTP/1.1" 200 -
+2015-04-15 11:00:26,250 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:26] "POST /web/dataset/call_kw/res.company/name_get HTTP/1.1" 200 -
+2015-04-15 11:00:26,441 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:26] "POST /web/dataset/call_kw/product.pricelist/name_get HTTP/1.1" 200 -
+2015-04-15 11:00:26,457 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:26] "POST /web/dataset/call_kw/product.pricelist/name_get HTTP/1.1" 200 -
+2015-04-15 11:00:26,482 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:26] "POST /web/dataset/call_kw/stock.location/name_get HTTP/1.1" 200 -
+2015-04-15 11:00:26,578 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:26] "POST /web/dataset/call_kw/stock.location/name_get HTTP/1.1" 200 -
+2015-04-15 11:00:26,778 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:26] "POST /web/dataset/call_kw/account.fiscal.position/name_search HTTP/1.1" 200 -
+2015-04-15 11:00:26,825 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:26] "POST /web/dataset/call_kw/account.account/name_get HTTP/1.1" 200 -
+2015-04-15 11:00:26,838 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:26] "POST /web/dataset/call_kw/account.payment.term/name_search HTTP/1.1" 200 -
+2015-04-15 11:00:26,898 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:26] "POST /web/dataset/call_kw/account.account/name_get HTTP/1.1" 200 -
+2015-04-15 11:00:27,105 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:27] "POST /web/dataset/call_kw/account.payment.term/name_search HTTP/1.1" 200 -
+2015-04-15 11:00:27,154 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:27] "POST /web/dataset/call_kw/res.partner/read_followers_data HTTP/1.1" 200 -
+2015-04-15 11:00:27,233 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:27] "GET /web/binary/image?model=res.partner&field=image_small&id=48 HTTP/1.1" 200 -
+2015-04-15 11:00:27,349 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:27] "POST /web/dataset/call_kw/res.users/fields_view_get HTTP/1.1" 200 -
+2015-04-15 11:00:27,453 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:27] "GET /web/binary/image?model=res.partner&field=image_small&id=49 HTTP/1.1" 200 -
+2015-04-15 11:00:27,490 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:27] "GET /web/binary/image?model=res.partner&field=image_small&id=14 HTTP/1.1" 200 -
+2015-04-15 11:00:27,585 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:27] "GET /web/binary/image?model=res.partner&field=image_small&id=51 HTTP/1.1" 200 -
+2015-04-15 11:00:27,681 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:27] "GET /web/binary/image?model=res.partner&field=image_small&id=17 HTTP/1.1" 200 -
+2015-04-15 11:00:27,798 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:27] "GET /web/binary/image?model=res.partner&field=image_small&id=19 HTTP/1.1" 200 -
+2015-04-15 11:00:27,829 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:27] "GET /web/binary/image?model=res.partner&field=image_small&id=59 HTTP/1.1" 200 -
+2015-04-15 11:00:27,905 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:27] "GET /web/binary/image?model=res.partner&field=image_small&id=8 HTTP/1.1" 200 -
+2015-04-15 11:00:28,007 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:28] "GET /web/binary/image?model=res.partner&field=image_small&id=44 HTTP/1.1" 200 -
+2015-04-15 11:00:28,132 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:28] "GET /web/binary/image?model=res.partner&field=image_small&id=46 HTTP/1.1" 200 -
+2015-04-15 11:00:28,164 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:28] "GET /web/binary/image?model=res.partner&field=image_small&id=47 HTTP/1.1" 200 -
+2015-04-15 11:00:28,257 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:28] "GET /web/binary/image?model=res.partner&field=image_small&id=26 HTTP/1.1" 200 -
+2015-04-15 11:00:28,335 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:28] "GET /web/binary/image?model=res.partner&field=image_small&id=66 HTTP/1.1" 200 -
+2015-04-15 11:00:28,471 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:28] "GET /web/binary/image?model=res.partner&field=image_small&id=65 HTTP/1.1" 200 -
+2015-04-15 11:00:28,519 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:28] "GET /web/binary/image?model=res.partner&field=image_small&id=64 HTTP/1.1" 200 -
+2015-04-15 11:00:28,581 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:28] "GET /web/binary/image?model=res.partner&field=image_small&id=16 HTTP/1.1" 200 -
+2015-04-15 11:00:28,667 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:28] "GET /web/binary/image?model=res.partner&field=image_small&id=13 HTTP/1.1" 200 -
+2015-04-15 11:00:28,819 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:28] "GET /web/binary/image?model=res.partner&field=image_small&id=50 HTTP/1.1" 200 -
+2015-04-15 11:00:28,864 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:28] "GET /web/binary/image?model=res.partner&field=image_small&id=20 HTTP/1.1" 200 -
+2015-04-15 11:00:28,904 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:28] "GET /web/binary/image?model=res.partner&field=image_small&id=60 HTTP/1.1" 200 -
+2015-04-15 11:00:28,990 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:28] "GET /web/binary/image?model=res.partner&field=image_small&id=22 HTTP/1.1" 200 -
+2015-04-15 11:00:29,161 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:29] "GET /web/binary/image?model=res.partner&field=image_small&id=61 HTTP/1.1" 200 -
+2015-04-15 11:00:34,510 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:34] "POST /calendar/notify HTTP/1.1" 200 -
+2015-04-15 11:00:40,253 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:00:40] "POST /longpolling/poll HTTP/1.1" 200 -
+2015-04-15 11:01:11,726 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:01:11] "POST /longpolling/poll HTTP/1.1" 200 -
+2015-04-15 11:01:30,631 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:01:30] "POST /longpolling/poll HTTP/1.1" 200 -
+2015-04-15 11:02:02,118 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:02:02] "POST /longpolling/poll HTTP/1.1" 200 -
+2015-04-15 11:02:21,121 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:02:21] "POST /longpolling/poll HTTP/1.1" 200 -
+2015-04-15 11:02:52,480 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:02:52] "POST /longpolling/poll HTTP/1.1" 200 -
+2015-04-15 11:03:11,509 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:03:11] "POST /longpolling/poll HTTP/1.1" 200 -
+2015-04-15 11:03:42,884 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:03:42] "POST /longpolling/poll HTTP/1.1" 200 -
+2015-04-15 11:04:01,908 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:04:01] "POST /longpolling/poll HTTP/1.1" 200 -
+2015-04-15 11:04:33,259 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:04:33] "POST /longpolling/poll HTTP/1.1" 200 -
+2015-04-15 11:04:52,269 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:04:52] "POST /longpolling/poll HTTP/1.1" 200 -
+2015-04-15 11:05:20,595 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:05:20] "POST /calendar/notify HTTP/1.1" 200 -
+2015-04-15 11:05:23,615 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:05:23] "POST /longpolling/poll HTTP/1.1" 200 -
+2015-04-15 11:05:35,530 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:05:35] "POST /calendar/notify HTTP/1.1" 200 -
+2015-04-15 11:05:42,619 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:05:42] "POST /longpolling/poll HTTP/1.1" 200 -
+2015-04-15 11:06:13,963 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:06:13] "POST /longpolling/poll HTTP/1.1" 200 -
+2015-04-15 11:06:33,012 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:06:33] "POST /longpolling/poll HTTP/1.1" 200 -
+2015-04-15 11:07:04,309 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:07:04] "POST /longpolling/poll HTTP/1.1" 200 -
+2015-04-15 11:07:23,358 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:07:23] "POST /longpolling/poll HTTP/1.1" 200 -
+2015-04-15 11:07:54,683 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:07:54] "POST /longpolling/poll HTTP/1.1" 200 -
+2015-04-15 11:08:13,713 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:08:13] "POST /longpolling/poll HTTP/1.1" 200 -
+2015-04-15 11:08:45,086 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:08:45] "POST /longpolling/poll HTTP/1.1" 200 -
+2015-04-15 11:09:04,059 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:09:04] "POST /longpolling/poll HTTP/1.1" 200 -
+2015-04-15 11:09:35,461 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:09:35] "POST /longpolling/poll HTTP/1.1" 200 -
+2015-04-15 11:09:54,460 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:09:54] "POST /longpolling/poll HTTP/1.1" 200 -
+2015-04-15 11:10:20,630 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:10:20] "POST /calendar/notify HTTP/1.1" 200 -
+2015-04-15 11:10:25,842 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:10:25] "POST /longpolling/poll HTTP/1.1" 200 -
+2015-04-15 11:10:36,542 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:10:36] "POST /calendar/notify HTTP/1.1" 200 -
+2015-04-15 11:10:44,930 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:10:44] "POST /longpolling/poll HTTP/1.1" 200 -
+2015-04-15 11:11:16,312 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:11:16] "POST /longpolling/poll HTTP/1.1" 200 -
+2015-04-15 11:11:35,276 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:11:35] "POST /longpolling/poll HTTP/1.1" 200 -
+2015-04-15 11:12:06,653 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:12:06] "POST /longpolling/poll HTTP/1.1" 200 -
+2015-04-15 11:12:25,658 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:12:25] "POST /longpolling/poll HTTP/1.1" 200 -
+2015-04-15 11:12:56,992 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:12:56] "POST /longpolling/poll HTTP/1.1" 200 -
+2015-04-15 11:13:06,401 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:13:06] "POST /web/action/load HTTP/1.1" 200 -
+2015-04-15 11:13:07,346 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:13:07] "POST /web/dataset/call_kw/sale.order/fields_view_get HTTP/1.1" 200 -
+2015-04-15 11:13:07,459 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:13:07] "POST /web/dataset/call_kw/sale.order/fields_view_get HTTP/1.1" 200 -
+2015-04-15 11:13:07,719 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:13:07] "POST /web/dataset/call_kw/ir.filters/get_filters HTTP/1.1" 200 -
+2015-04-15 11:13:07,753 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:13:07] "POST /web/dataset/call_kw/sale.order/fields_get HTTP/1.1" 200 -
+2015-04-15 11:13:08,243 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:13:08] "POST /web/dataset/call_kw/sale.order/fields_view_get HTTP/1.1" 200 -
+2015-04-15 11:13:08,720 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:13:08] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2015-04-15 11:13:16,010 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:13:16] "POST /longpolling/poll HTTP/1.1" 200 -
+2015-04-15 11:13:17,529 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:13:17] "POST /web/action/load HTTP/1.1" 200 -
+2015-04-15 11:13:18,000 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:13:18] "POST /web/dataset/call_kw/crm.case.section/fields_view_get HTTP/1.1" 200 -
+2015-04-15 11:13:18,042 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:13:18] "POST /web/dataset/call_kw/crm.case.section/fields_view_get HTTP/1.1" 200 -
+2015-04-15 11:13:18,375 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:13:18] "POST /web/dataset/call_kw/ir.filters/get_filters HTTP/1.1" 200 -
+2015-04-15 11:13:18,404 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:13:18] "POST /web/dataset/call_kw/crm.case.section/fields_get HTTP/1.1" 200 -
+2015-04-15 11:13:18,891 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:13:18] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2015-04-15 11:13:19,398 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:13:19] "GET /web/binary/image?model=res.users&field=image_small&id=4 HTTP/1.1" 200 -
+2015-04-15 11:13:35,385 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:13:35] "POST /web/action/load HTTP/1.1" 200 -
+2015-04-15 11:13:35,911 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:13:35] "POST /web/dataset/call_kw/res.partner/fields_view_get HTTP/1.1" 200 -
+2015-04-15 11:13:36,117 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:13:36] "POST /web/dataset/call_kw/res.partner/fields_view_get HTTP/1.1" 200 -
+2015-04-15 11:13:36,286 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:13:36] "POST /web/dataset/call_kw/ir.filters/get_filters HTTP/1.1" 200 -
+2015-04-15 11:13:36,382 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:13:36] "POST /web/dataset/call_kw/res.partner/fields_get HTTP/1.1" 200 -
+2015-04-15 11:13:37,351 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:13:37] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2015-04-15 11:13:37,894 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:13:37] "POST /web/dataset/call_kw/res.partner.category/name_get HTTP/1.1" 200 -
+2015-04-15 11:13:40,056 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:13:40] "POST /web/action/load HTTP/1.1" 200 -
+2015-04-15 11:13:40,538 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:13:40] "POST /web/dataset/call_kw/crm.case.section/fields_view_get HTTP/1.1" 200 -
+2015-04-15 11:13:40,575 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:13:40] "POST /web/dataset/call_kw/crm.case.section/fields_view_get HTTP/1.1" 200 -
+2015-04-15 11:13:40,921 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:13:40] "POST /web/dataset/call_kw/ir.filters/get_filters HTTP/1.1" 200 -
+2015-04-15 11:13:40,938 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:13:40] "POST /web/dataset/call_kw/crm.case.section/fields_get HTTP/1.1" 200 -
+2015-04-15 11:13:41,437 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:13:41] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2015-04-15 11:13:47,349 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:13:47] "POST /longpolling/poll HTTP/1.1" 200 -
+2015-04-15 11:14:06,368 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:14:06] "POST /longpolling/poll HTTP/1.1" 200 -
+2015-04-15 11:14:37,749 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:14:37] "POST /longpolling/poll HTTP/1.1" 200 -
+2015-04-15 11:14:56,756 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:14:56] "POST /longpolling/poll HTTP/1.1" 200 -
+2015-04-15 11:15:20,650 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:15:20] "POST /calendar/notify HTTP/1.1" 200 -
+2015-04-15 11:15:28,118 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:15:28] "POST /longpolling/poll HTTP/1.1" 200 -
+2015-04-15 11:15:37,559 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:15:37] "POST /calendar/notify HTTP/1.1" 200 -
+2015-04-15 11:15:47,141 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:15:47] "POST /longpolling/poll HTTP/1.1" 200 -
+2015-04-15 11:16:18,519 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:16:18] "POST /longpolling/poll HTTP/1.1" 200 -
+2015-04-15 11:16:37,493 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:16:37] "POST /longpolling/poll HTTP/1.1" 200 -
+2015-04-15 11:17:08,898 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:17:08] "POST /longpolling/poll HTTP/1.1" 200 -
+2015-04-15 11:17:27,875 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:17:27] "POST /longpolling/poll HTTP/1.1" 200 -
+2015-04-15 11:17:30,960 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:17:30] "POST /web/action/load HTTP/1.1" 200 -
+2015-04-15 11:17:31,098 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:17:31] "POST /web/menu/load_needaction HTTP/1.1" 200 -
+2015-04-15 11:17:31,428 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:17:31] "POST /web/dataset/call_kw/ir.module.module/fields_view_get HTTP/1.1" 200 -
+2015-04-15 11:17:31,671 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:17:31] "POST /web/dataset/call_kw/ir.module.module/fields_view_get HTTP/1.1" 200 -
+2015-04-15 11:17:31,795 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:17:31] "POST /web/dataset/call_kw/ir.filters/get_filters HTTP/1.1" 200 -
+2015-04-15 11:17:31,823 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:17:31] "POST /web/dataset/call_kw/ir.module.module/fields_get HTTP/1.1" 200 -
+2015-04-15 11:17:32,262 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:17:32] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2015-04-15 11:17:41,388 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:17:41] "POST /web/action/load HTTP/1.1" 200 -
+2015-04-15 11:17:41,858 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:17:41] "POST /web/dataset/call_kw/ir.ui.view/fields_view_get HTTP/1.1" 200 -
+2015-04-15 11:17:41,877 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:17:41] "POST /web/dataset/call_kw/ir.ui.view/fields_view_get HTTP/1.1" 200 -
+2015-04-15 11:17:42,207 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:17:42] "POST /web/dataset/call_kw/ir.filters/get_filters HTTP/1.1" 200 -
+2015-04-15 11:17:42,234 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:17:42] "POST /web/dataset/call_kw/ir.ui.view/fields_get HTTP/1.1" 200 -
+2015-04-15 11:17:42,645 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:17:42] "POST /web/dataset/call_kw/ir.ui.view/fields_view_get HTTP/1.1" 200 -
+2015-04-15 11:17:43,190 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:17:43] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2015-04-15 11:17:53,579 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:17:53] "POST /web/dataset/call_kw/ir.ui.view/fields_view_get HTTP/1.1" 200 -
+2015-04-15 11:17:55,213 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:17:55] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2015-04-15 11:17:59,252 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:17:59] "POST /longpolling/poll HTTP/1.1" 200 -
+2015-04-15 11:18:03,059 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:18:03] "POST /web/dataset/call_kw/ir.ui.view/fields_view_get HTTP/1.1" 200 -
+2015-04-15 11:18:03,700 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:18:03] "POST /web/dataset/call_kw/ir.ui.view/read HTTP/1.1" 200 -
+2015-04-15 11:18:04,187 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:18:04] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2015-04-15 11:18:04,230 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:18:04] "POST /web/dataset/call_kw/res.groups/fields_view_get HTTP/1.1" 200 -
+2015-04-15 11:18:04,319 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:18:04] "POST /web/dataset/call_kw/ir.ui.view/read HTTP/1.1" 200 -
+2015-04-15 11:18:18,230 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:18:18] "POST /longpolling/poll HTTP/1.1" 200 -
+2015-04-15 11:18:49,608 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:18:49] "POST /longpolling/poll HTTP/1.1" 200 -
+2015-04-15 11:19:03,767 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:19:03] "POST /web/dataset/call_kw/res.groups/fields_view_get HTTP/1.1" 200 -
+2015-04-15 11:19:08,595 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:19:08] "POST /longpolling/poll HTTP/1.1" 200 -
+2015-04-15 11:19:25,861 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:19:25] "POST /web/dataset/call_kw/ir.ui.view/write HTTP/1.1" 200 -
+2015-04-15 11:19:26,257 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:19:26] "POST /web/dataset/call_kw/ir.ui.view/search_read HTTP/1.1" 200 -
+2015-04-15 11:19:26,766 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:19:26] "POST /web/dataset/call_kw/res.groups/fields_view_get HTTP/1.1" 200 -
+2015-04-15 11:19:26,788 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:19:26] "POST /web/menu/load_needaction HTTP/1.1" 200 -
+2015-04-15 11:19:26,819 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:19:26] "POST /web/dataset/call_kw/ir.ui.view/read HTTP/1.1" 200 -
+2015-04-15 11:19:27,187 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:19:27] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2015-04-15 11:19:39,950 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:19:39] "POST /longpolling/poll HTTP/1.1" 200 -
+2015-04-15 11:19:58,963 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:19:58] "POST /longpolling/poll HTTP/1.1" 200 -
+2015-04-15 11:20:20,641 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:20:20] "POST /calendar/notify HTTP/1.1" 200 -
+2015-04-15 11:20:30,288 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:20:30] "POST /longpolling/poll HTTP/1.1" 200 -
+2015-04-15 11:20:38,546 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:20:38] "POST /calendar/notify HTTP/1.1" 200 -
+2015-04-15 11:20:49,336 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:20:49] "POST /longpolling/poll HTTP/1.1" 200 -
+2015-04-15 11:21:20,706 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:21:20] "POST /longpolling/poll HTTP/1.1" 200 -
+2015-04-15 11:21:39,677 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:21:39] "POST /longpolling/poll HTTP/1.1" 200 -
+2015-04-15 11:21:50,138 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:21:50] "POST /web/action/load HTTP/1.1" 200 -
+2015-04-15 11:21:50,637 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:21:50] "POST /web/dataset/call_kw/ir.ui.view/fields_view_get HTTP/1.1" 200 -
+2015-04-15 11:21:50,664 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:21:50] "POST /web/dataset/call_kw/ir.ui.view/fields_view_get HTTP/1.1" 200 -
+2015-04-15 11:21:51,039 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:21:51] "POST /web/dataset/call_kw/ir.filters/get_filters HTTP/1.1" 200 -
+2015-04-15 11:21:51,052 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:21:51] "POST /web/dataset/call_kw/ir.ui.view/fields_get HTTP/1.1" 200 -
+2015-04-15 11:21:51,466 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:21:51] "POST /web/dataset/call_kw/ir.ui.view/fields_view_get HTTP/1.1" 200 -
+2015-04-15 11:21:51,967 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:21:51] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2015-04-15 11:22:06,599 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:22:06] "POST /web/dataset/call_kw/ir.ui.view/fields_view_get HTTP/1.1" 200 -
+2015-04-15 11:22:08,355 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:22:08] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2015-04-15 11:22:11,069 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:22:11] "POST /longpolling/poll HTTP/1.1" 200 -
+2015-04-15 11:22:20,051 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:22:20] "POST /web/dataset/call_kw/ir.ui.view/fields_view_get HTTP/1.1" 200 -
+2015-04-15 11:22:20,661 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:22:20] "POST /web/dataset/call_kw/ir.ui.view/read HTTP/1.1" 200 -
+2015-04-15 11:22:21,108 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:22:21] "POST /web/dataset/call_kw/res.groups/fields_view_get HTTP/1.1" 200 -
+2015-04-15 11:22:21,137 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:22:21] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2015-04-15 11:22:21,226 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:22:21] "POST /web/dataset/call_kw/ir.ui.view/read HTTP/1.1" 200 -
+2015-04-15 11:22:30,043 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:22:30] "POST /longpolling/poll HTTP/1.1" 200 -
+2015-04-15 11:23:01,437 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:23:01] "POST /longpolling/poll HTTP/1.1" 200 -
+2015-04-15 11:23:20,405 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:23:20] "POST /longpolling/poll HTTP/1.1" 200 -
+2015-04-15 11:23:51,823 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:23:51] "POST /longpolling/poll HTTP/1.1" 200 -
+2015-04-15 11:24:10,790 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:24:10] "POST /longpolling/poll HTTP/1.1" 200 -
+2015-04-15 11:24:42,207 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:24:42] "POST /longpolling/poll HTTP/1.1" 200 -
+2015-04-15 11:25:01,165 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:25:01] "POST /longpolling/poll HTTP/1.1" 200 -
+2015-04-15 11:25:05,161 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:25:05] "POST /web/action/load HTTP/1.1" 200 -
+2015-04-15 11:25:05,262 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:25:05] "POST /web/menu/load_needaction HTTP/1.1" 200 -
+2015-04-15 11:25:05,694 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:25:05] "POST /web/dataset/call_kw/crm.case.section/fields_view_get HTTP/1.1" 200 -
+2015-04-15 11:25:05,736 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:25:05] "POST /web/dataset/call_kw/crm.case.section/fields_view_get HTTP/1.1" 200 -
+2015-04-15 11:25:06,069 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:25:06] "POST /web/dataset/call_kw/ir.filters/get_filters HTTP/1.1" 200 -
+2015-04-15 11:25:06,094 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:25:06] "POST /web/dataset/call_kw/crm.case.section/fields_get HTTP/1.1" 200 -
+2015-04-15 11:25:06,594 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:25:06] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2015-04-15 11:25:07,095 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:25:07] "GET /web/binary/image?model=res.users&field=image_small&id=4 HTTP/1.1" 200 -
+2015-04-15 11:25:09,411 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:25:09] "POST /web/action/load HTTP/1.1" 200 -
+2015-04-15 11:25:09,927 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:25:09] "POST /web/dataset/call_kw/res.partner/fields_view_get HTTP/1.1" 200 -
+2015-04-15 11:25:10,147 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:25:10] "POST /web/dataset/call_kw/res.partner/fields_view_get HTTP/1.1" 200 -
+2015-04-15 11:25:10,276 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:25:10] "POST /web/dataset/call_kw/ir.filters/get_filters HTTP/1.1" 200 -
+2015-04-15 11:25:10,377 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:25:10] "POST /web/dataset/call_kw/res.partner/fields_get HTTP/1.1" 200 -
+2015-04-15 11:25:11,328 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:25:11] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2015-04-15 11:25:11,848 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:25:11] "POST /web/dataset/call_kw/res.partner.category/name_get HTTP/1.1" 200 -
+2015-04-15 11:25:13,851 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:25:13] "POST /web/dataset/call_kw/res.partner/fields_view_get HTTP/1.1" 200 -
+2015-04-15 11:25:14,849 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:25:14] "POST /web/dataset/call_kw/res.partner/default_get HTTP/1.1" 200 -
+2015-04-15 11:25:15,413 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:25:15] "POST /web/dataset/call_kw/res.partner/onchange HTTP/1.1" 200 -
+2015-04-15 11:25:15,635 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:25:15] "POST /web/dataset/call_kw/res.company/name_get HTTP/1.1" 200 -
+2015-04-15 11:25:15,744 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:25:15] "POST /web/dataset/call_kw/product.pricelist/name_get HTTP/1.1" 200 -
+2015-04-15 11:25:15,775 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:25:15] "POST /web/dataset/call_kw/product.pricelist/name_get HTTP/1.1" 200 -
+2015-04-15 11:25:15,811 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:25:15] "POST /web/dataset/call_kw/stock.location/name_get HTTP/1.1" 200 -
+2015-04-15 11:25:15,967 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:25:15] "POST /web/dataset/call_kw/stock.location/name_get HTTP/1.1" 200 -
+2015-04-15 11:25:16,069 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:25:16] "POST /web/dataset/call_kw/account.fiscal.position/name_search HTTP/1.1" 200 -
+2015-04-15 11:25:16,094 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:25:16] "POST /web/dataset/call_kw/account.account/name_get HTTP/1.1" 200 -
+2015-04-15 11:25:16,138 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:25:16] "POST /web/dataset/call_kw/account.payment.term/name_search HTTP/1.1" 200 -
+2015-04-15 11:25:16,290 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:25:16] "POST /web/dataset/call_kw/account.account/name_get HTTP/1.1" 200 -
+2015-04-15 11:25:16,424 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:25:16] "POST /web/dataset/call_kw/account.payment.term/name_search HTTP/1.1" 200 -
+2015-04-15 11:25:16,480 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:25:16] "POST /web/dataset/call_kw/res.partner/read_followers_data HTTP/1.1" 200 -
+2015-04-15 11:25:16,640 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:25:16] "POST /web/dataset/call_kw/res.users/fields_view_get HTTP/1.1" 200 -
+2015-04-15 11:25:20,647 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:25:20] "POST /calendar/notify HTTP/1.1" 200 -
+2015-04-15 11:25:32,571 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:25:32] "POST /longpolling/poll HTTP/1.1" 200 -
+2015-04-15 11:25:39,615 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:25:39] "POST /calendar/notify HTTP/1.1" 200 -
+2015-04-15 11:25:51,515 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:25:51] "POST /longpolling/poll HTTP/1.1" 200 -
+2015-04-15 11:26:22,934 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:26:22] "POST /longpolling/poll HTTP/1.1" 200 -
+2015-04-15 11:26:41,865 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:26:41] "POST /longpolling/poll HTTP/1.1" 200 -
+2015-04-15 11:27:13,308 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:27:13] "POST /longpolling/poll HTTP/1.1" 200 -
+2015-04-15 11:27:32,266 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:27:32] "POST /longpolling/poll HTTP/1.1" 200 -
+2015-04-15 11:28:03,681 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:28:03] "POST /longpolling/poll HTTP/1.1" 200 -
+2015-04-15 11:28:22,609 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:28:22] "POST /longpolling/poll HTTP/1.1" 200 -
+2015-04-15 11:28:54,092 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:28:54] "POST /longpolling/poll HTTP/1.1" 200 -
+2015-04-15 11:29:12,957 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:29:12] "POST /longpolling/poll HTTP/1.1" 200 -
+2015-04-15 11:29:14,871 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:29:14] "POST /web/action/load HTTP/1.1" 200 -
+2015-04-15 11:29:15,092 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:29:15] "POST /web/menu/load_needaction HTTP/1.1" 200 -
+2015-04-15 11:29:15,766 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:29:15] "POST /web/dataset/call_kw/ir.module.module/fields_view_get HTTP/1.1" 200 -
+2015-04-15 11:29:15,846 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:29:15] "POST /web/dataset/call_kw/ir.module.module/fields_view_get HTTP/1.1" 200 -
+2015-04-15 11:29:16,122 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:29:16] "POST /web/dataset/call_kw/ir.filters/get_filters HTTP/1.1" 200 -
+2015-04-15 11:29:16,144 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:29:16] "POST /web/dataset/call_kw/ir.module.module/fields_get HTTP/1.1" 200 -
+2015-04-15 11:29:16,592 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:29:16] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2015-04-15 11:29:22,960 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:29:22] "POST /web/action/load HTTP/1.1" 200 -
+2015-04-15 11:29:23,436 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:29:23] "POST /web/dataset/call_kw/ir.ui.view/fields_view_get HTTP/1.1" 200 -
+2015-04-15 11:29:23,456 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:29:23] "POST /web/dataset/call_kw/ir.ui.view/fields_view_get HTTP/1.1" 200 -
+2015-04-15 11:29:23,809 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:29:23] "POST /web/dataset/call_kw/ir.filters/get_filters HTTP/1.1" 200 -
+2015-04-15 11:29:23,842 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:29:23] "POST /web/dataset/call_kw/ir.ui.view/fields_get HTTP/1.1" 200 -
+2015-04-15 11:29:24,252 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:29:24] "POST /web/dataset/call_kw/ir.ui.view/fields_view_get HTTP/1.1" 200 -
+2015-04-15 11:29:24,736 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:29:24] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2015-04-15 11:29:29,651 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:29:29] "POST /web/action/load HTTP/1.1" 200 -
+2015-04-15 11:29:30,105 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:29:30] "POST /web/dataset/call_kw/ir.actions.actions/fields_view_get HTTP/1.1" 200 -
+2015-04-15 11:29:30,131 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:29:30] "POST /web/dataset/call_kw/ir.actions.actions/fields_view_get HTTP/1.1" 200 -
+2015-04-15 11:29:30,482 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:29:30] "POST /web/dataset/call_kw/ir.filters/get_filters HTTP/1.1" 200 -
+2015-04-15 11:29:30,492 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:29:30] "POST /web/dataset/call_kw/ir.actions.actions/fields_get HTTP/1.1" 200 -
+2015-04-15 11:29:30,907 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:29:30] "POST /web/dataset/call_kw/ir.actions.actions/fields_view_get HTTP/1.1" 200 -
+2015-04-15 11:29:31,332 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:29:31] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2015-04-15 11:29:33,265 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:29:33] "POST /web/action/load HTTP/1.1" 200 -
+2015-04-15 11:29:33,690 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:29:33] "POST /web/dataset/call_kw/ir.actions.report.xml/fields_view_get HTTP/1.1" 200 -
+2015-04-15 11:29:33,720 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:29:33] "POST /web/dataset/call_kw/ir.actions.report.xml/fields_view_get HTTP/1.1" 200 -
+2015-04-15 11:29:34,072 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:29:34] "POST /web/dataset/call_kw/ir.filters/get_filters HTTP/1.1" 200 -
+2015-04-15 11:29:34,095 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:29:34] "POST /web/dataset/call_kw/ir.actions.report.xml/fields_get HTTP/1.1" 200 -
+2015-04-15 11:29:34,505 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:29:34] "POST /web/dataset/call_kw/ir.actions.report.xml/fields_view_get HTTP/1.1" 200 -
+2015-04-15 11:29:34,931 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:29:34] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2015-04-15 11:29:40,303 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:29:40] "POST /web/dataset/call_kw/ir.actions.report.xml/fields_view_get HTTP/1.1" 200 -
+2015-04-15 11:29:40,956 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:29:40] "POST /web/dataset/call_kw/ir.actions.report.xml/read HTTP/1.1" 200 -
+2015-04-15 11:29:41,407 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:29:41] "POST /web/dataset/call_kw/res.groups/fields_view_get HTTP/1.1" 200 -
+2015-04-15 11:29:41,446 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:29:41] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2015-04-15 11:29:44,460 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:29:44] "POST /longpolling/poll HTTP/1.1" 200 -
+2015-04-15 11:29:44,987 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:29:44] "POST /web/dataset/call_kw/res.groups/fields_view_get HTTP/1.1" 200 -
+2015-04-15 11:29:45,098 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 11:29:45] "GET /web/static/src/img/icons/terp-translate.png HTTP/1.1" 200 -
+2015-04-15 11:29:55,983 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:29:55] "POST /web/action/load HTTP/1.1" 200 -
+2015-04-15 11:29:56,497 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:29:56] "POST /web/dataset/call_kw/ir.ui.view/fields_view_get HTTP/1.1" 200 -
+2015-04-15 11:29:56,515 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:29:56] "POST /web/dataset/call_kw/ir.ui.view/fields_view_get HTTP/1.1" 200 -
+2015-04-15 11:29:56,871 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:29:56] "POST /web/dataset/call_kw/ir.filters/get_filters HTTP/1.1" 200 -
+2015-04-15 11:29:56,897 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:29:56] "POST /web/dataset/call_kw/ir.ui.view/fields_get HTTP/1.1" 200 -
+2015-04-15 11:29:57,311 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:29:57] "POST /web/dataset/call_kw/ir.ui.view/fields_view_get HTTP/1.1" 200 -
+2015-04-15 11:29:57,483 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:29:57] "POST /web/action/load HTTP/1.1" 200 -
+2015-04-15 11:29:57,816 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:29:57] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2015-04-15 11:29:58,394 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:29:58] "POST /web/dataset/call_kw/ir.ui.menu/fields_view_get HTTP/1.1" 200 -
+2015-04-15 11:29:58,414 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:29:58] "POST /web/dataset/call_kw/ir.ui.menu/fields_view_get HTTP/1.1" 200 -
+2015-04-15 11:29:58,756 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:29:58] "POST /web/dataset/call_kw/ir.filters/get_filters HTTP/1.1" 200 -
+2015-04-15 11:29:58,782 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:29:58] "POST /web/dataset/call_kw/ir.ui.menu/fields_get HTTP/1.1" 200 -
+2015-04-15 11:29:59,283 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:29:59] "POST /web/dataset/call_kw/ir.ui.menu/fields_view_get HTTP/1.1" 200 -
+2015-04-15 11:29:59,841 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:29:59] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2015-04-15 11:30:03,283 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:30:03] "POST /longpolling/poll HTTP/1.1" 200 -
+2015-04-15 11:30:03,828 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:30:03] "POST /web/dataset/call_kw/ir.ui.menu/fields_view_get HTTP/1.1" 200 -
+2015-04-15 11:30:04,404 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:30:04] "POST /web/dataset/call_kw/ir.ui.menu/read HTTP/1.1" 200 -
+2015-04-15 11:30:04,858 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:30:04] "POST /web/dataset/call_kw/res.groups/fields_view_get HTTP/1.1" 200 -
+2015-04-15 11:30:04,868 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:30:04] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2015-04-15 11:30:04,936 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:30:04] "POST /web/dataset/call_kw/ir.ui.menu/read HTTP/1.1" 200 -
+2015-04-15 11:30:06,750 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:30:06] "POST /web/action/load HTTP/1.1" 200 -
+2015-04-15 11:30:07,242 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:30:07] "POST /web/dataset/call_kw/ir.ui.view/fields_view_get HTTP/1.1" 200 -
+2015-04-15 11:30:07,260 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:30:07] "POST /web/dataset/call_kw/ir.ui.view/fields_view_get HTTP/1.1" 200 -
+2015-04-15 11:30:07,607 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:30:07] "POST /web/dataset/call_kw/ir.filters/get_filters HTTP/1.1" 200 -
+2015-04-15 11:30:07,631 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:30:07] "POST /web/dataset/call_kw/ir.ui.view/fields_get HTTP/1.1" 200 -
+2015-04-15 11:30:08,065 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:30:08] "POST /web/dataset/call_kw/ir.ui.view/fields_view_get HTTP/1.1" 200 -
+2015-04-15 11:30:08,561 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:30:08] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2015-04-15 11:30:10,339 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:30:10] "POST /web/dataset/call_kw/ir.ui.view/fields_view_get HTTP/1.1" 200 -
+2015-04-15 11:30:10,913 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:30:10] "POST /web/dataset/call_kw/ir.ui.view/read HTTP/1.1" 200 -
+2015-04-15 11:30:11,388 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:30:11] "POST /web/dataset/call_kw/res.groups/fields_view_get HTTP/1.1" 200 -
+2015-04-15 11:30:11,404 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:30:11] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2015-04-15 11:30:20,651 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:30:20] "POST /calendar/notify HTTP/1.1" 200 -
+2015-04-15 11:30:22,480 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:30:22] "POST /web/action/load HTTP/1.1" 200 -
+2015-04-15 11:30:22,997 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:30:22] "POST /web/dataset/call_kw/ir.ui.view.custom/fields_view_get HTTP/1.1" 200 -
+2015-04-15 11:30:23,046 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:30:23] "POST /web/dataset/call_kw/ir.ui.view.custom/fields_view_get HTTP/1.1" 200 -
+2015-04-15 11:30:23,349 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:30:23] "POST /web/dataset/call_kw/ir.filters/get_filters HTTP/1.1" 200 -
+2015-04-15 11:30:23,365 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:30:23] "POST /web/dataset/call_kw/ir.ui.view.custom/fields_get HTTP/1.1" 200 -
+2015-04-15 11:30:23,779 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:30:23] "POST /web/dataset/call_kw/ir.ui.view.custom/fields_view_get HTTP/1.1" 200 -
+2015-04-15 11:30:24,180 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:30:24] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2015-04-15 11:30:32,194 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:30:32] "POST /web/action/load HTTP/1.1" 200 -
+2015-04-15 11:30:32,609 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:30:32] "POST /web/dataset/call_kw/ir.model/fields_view_get HTTP/1.1" 200 -
+2015-04-15 11:30:32,653 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:30:32] "POST /web/dataset/call_kw/ir.model/fields_view_get HTTP/1.1" 200 -
+2015-04-15 11:30:32,987 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:30:32] "POST /web/dataset/call_kw/ir.filters/get_filters HTTP/1.1" 200 -
+2015-04-15 11:30:33,009 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:30:33] "POST /web/dataset/call_kw/ir.model/fields_get HTTP/1.1" 200 -
+2015-04-15 11:30:33,424 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:30:33] "POST /web/dataset/call_kw/ir.model/fields_view_get HTTP/1.1" 200 -
+2015-04-15 11:30:33,878 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:30:33] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2015-04-15 11:30:34,869 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:30:34] "POST /longpolling/poll HTTP/1.1" 200 -
+2015-04-15 11:30:38,269 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:30:38] "POST /web/dataset/call_kw/ir.model/fields_view_get HTTP/1.1" 200 -
+2015-04-15 11:30:38,890 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:30:38] "POST /web/dataset/call_kw/ir.model/read HTTP/1.1" 200 -
+2015-04-15 11:30:39,299 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:30:39] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2015-04-15 11:30:39,358 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:30:39] "POST /web/dataset/call_kw/ir.ui.view/fields_view_get HTTP/1.1" 200 -
+2015-04-15 11:30:39,423 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:30:39] "POST /web/dataset/call_kw/ir.model.fields/read HTTP/1.1" 200 -
+2015-04-15 11:30:39,569 10260 INFO ? werkzeug: 127.0.0.1 - - [15/Apr/2015 11:30:39] "GET /web/static/src/img/icons/gtk-justify-fill.png HTTP/1.1" 200 -
+2015-04-15 11:30:39,917 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:30:39] "POST /web/dataset/call_kw/ir.model.access/read HTTP/1.1" 200 -
+2015-04-15 11:30:40,332 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:30:40] "POST /web/dataset/call_kw/ir.ui.view/read HTTP/1.1" 200 -
+2015-04-15 11:30:40,513 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:30:40] "POST /calendar/notify HTTP/1.1" 200 -
+2015-04-15 11:30:53,250 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:30:53] "POST /web/action/load HTTP/1.1" 200 -
+2015-04-15 11:30:53,615 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:30:53] "POST /longpolling/poll HTTP/1.1" 200 -
+2015-04-15 11:30:53,732 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:30:53] "POST /web/dataset/call_kw/ir.actions.actions/fields_view_get HTTP/1.1" 200 -
+2015-04-15 11:30:53,789 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:30:53] "POST /web/dataset/call_kw/ir.actions.actions/fields_view_get HTTP/1.1" 200 -
+2015-04-15 11:30:54,099 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:30:54] "POST /web/dataset/call_kw/ir.filters/get_filters HTTP/1.1" 200 -
+2015-04-15 11:30:54,099 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:30:54] "POST /web/dataset/call_kw/ir.actions.actions/fields_get HTTP/1.1" 200 -
+2015-04-15 11:30:54,515 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:30:54] "POST /web/dataset/call_kw/ir.actions.actions/fields_view_get HTTP/1.1" 200 -
+2015-04-15 11:30:54,940 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:30:54] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2015-04-15 11:30:57,890 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:30:57] "POST /web/dataset/call_kw/ir.actions.actions/fields_view_get HTTP/1.1" 200 -
+2015-04-15 11:30:58,365 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:30:58] "POST /web/dataset/call_kw/ir.actions.actions/read HTTP/1.1" 200 -
+2015-04-15 11:30:58,732 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:30:58] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2015-04-15 11:31:04,948 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:31:04] "POST /web/action/load HTTP/1.1" 200 -
+2015-04-15 11:31:05,403 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:31:05] "POST /web/dataset/call_kw/ir.ui.view/fields_view_get HTTP/1.1" 200 -
+2015-04-15 11:31:05,420 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:31:05] "POST /web/dataset/call_kw/ir.ui.view/fields_view_get HTTP/1.1" 200 -
+2015-04-15 11:31:05,770 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:31:05] "POST /web/dataset/call_kw/ir.filters/get_filters HTTP/1.1" 200 -
+2015-04-15 11:31:05,799 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:31:05] "POST /web/dataset/call_kw/ir.ui.view/fields_get HTTP/1.1" 200 -
+2015-04-15 11:31:06,213 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:31:06] "POST /web/dataset/call_kw/ir.ui.view/fields_view_get HTTP/1.1" 200 -
+2015-04-15 11:31:06,773 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:31:06] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2015-04-15 11:31:11,078 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:31:11] "POST /web/dataset/call_kw/ir.ui.view/fields_view_get HTTP/1.1" 200 -
+2015-04-15 11:31:11,709 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:31:11] "POST /web/dataset/call_kw/ir.ui.view/read HTTP/1.1" 200 -
+2015-04-15 11:31:12,186 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:31:12] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2015-04-15 11:31:12,186 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:31:12] "POST /web/dataset/call_kw/res.groups/fields_view_get HTTP/1.1" 200 -
+2015-04-15 11:31:25,286 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:31:25] "POST /longpolling/poll HTTP/1.1" 200 -
+2015-04-15 11:31:43,979 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:31:43] "POST /longpolling/poll HTTP/1.1" 200 -
+2015-04-15 11:32:15,657 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:32:15] "POST /longpolling/poll HTTP/1.1" 200 -
+2015-04-15 11:32:34,322 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:32:34] "POST /longpolling/poll HTTP/1.1" 200 -
+2015-04-15 11:33:06,029 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:33:06] "POST /longpolling/poll HTTP/1.1" 200 -
+2015-04-15 11:33:24,690 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:33:24] "POST /longpolling/poll HTTP/1.1" 200 -
+2015-04-15 11:33:56,394 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:33:56] "POST /longpolling/poll HTTP/1.1" 200 -
+2015-04-15 11:34:15,032 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:34:15] "POST /longpolling/poll HTTP/1.1" 200 -
+2015-04-15 11:34:46,765 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:34:46] "POST /longpolling/poll HTTP/1.1" 200 -
+2015-04-15 11:35:05,405 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:35:05] "POST /longpolling/poll HTTP/1.1" 200 -
+2015-04-15 11:35:21,530 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:35:21] "POST /calendar/notify HTTP/1.1" 200 -
+2015-04-15 11:35:37,118 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:35:37] "POST /longpolling/poll HTTP/1.1" 200 -
+2015-04-15 11:35:41,543 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:35:41] "POST /calendar/notify HTTP/1.1" 200 -
+2015-04-15 11:35:55,756 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:35:55] "POST /longpolling/poll HTTP/1.1" 200 -
+2015-04-15 11:36:27,464 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:36:27] "POST /longpolling/poll HTTP/1.1" 200 -
+2015-04-15 11:36:46,125 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:36:46] "POST /longpolling/poll HTTP/1.1" 200 -
+2015-04-15 11:37:17,867 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:37:17] "POST /longpolling/poll HTTP/1.1" 200 -
+2015-04-15 11:37:36,492 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:37:36] "POST /longpolling/poll HTTP/1.1" 200 -
+2015-04-15 11:38:08,243 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:38:08] "POST /longpolling/poll HTTP/1.1" 200 -
+2015-04-15 11:38:26,859 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:38:26] "POST /longpolling/poll HTTP/1.1" 200 -
+2015-04-15 11:38:58,609 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:38:58] "POST /longpolling/poll HTTP/1.1" 200 -
+2015-04-15 11:39:17,219 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:39:17] "POST /longpolling/poll HTTP/1.1" 200 -
+2015-04-15 11:39:49,009 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:39:49] "POST /longpolling/poll HTTP/1.1" 200 -
+2015-04-15 11:40:07,596 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:40:07] "POST /longpolling/poll HTTP/1.1" 200 -
+2015-04-15 11:40:22,548 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:40:22] "POST /calendar/notify HTTP/1.1" 200 -
+2015-04-15 11:40:39,358 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:40:39] "POST /longpolling/poll HTTP/1.1" 200 -
+2015-04-15 11:40:42,532 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:40:42] "POST /calendar/notify HTTP/1.1" 200 -
+2015-04-15 11:40:57,957 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:40:57] "POST /longpolling/poll HTTP/1.1" 200 -
+2015-04-15 11:41:02,601 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:41:02] "POST /web/action/load HTTP/1.1" 200 -
+2015-04-15 11:41:03,105 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:41:03] "POST /web/dataset/call_kw/ir.ui.view/fields_view_get HTTP/1.1" 200 -
+2015-04-15 11:41:03,174 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:41:03] "POST /web/dataset/call_kw/ir.ui.view/fields_view_get HTTP/1.1" 200 -
+2015-04-15 11:41:03,503 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:41:03] "POST /web/dataset/call_kw/ir.filters/get_filters HTTP/1.1" 200 -
+2015-04-15 11:41:03,539 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:41:03] "POST /web/dataset/call_kw/ir.ui.view/fields_get HTTP/1.1" 200 -
+2015-04-15 11:41:03,976 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:41:03] "POST /web/dataset/call_kw/ir.ui.view/fields_view_get HTTP/1.1" 200 -
+2015-04-15 11:41:04,460 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:41:04] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2015-04-15 11:41:11,894 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:41:11] "POST /web/dataset/call_kw/ir.ui.view/fields_view_get HTTP/1.1" 200 -
+2015-04-15 11:41:12,450 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:41:12] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2015-04-15 11:41:14,436 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:41:14] "POST /web/dataset/call_kw/ir.ui.view/fields_view_get HTTP/1.1" 200 -
+2015-04-15 11:41:14,908 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:41:14] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2015-04-15 11:41:19,993 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:41:19] "POST /web/dataset/call_kw/ir.ui.view/fields_view_get HTTP/1.1" 200 -
+2015-04-15 11:41:21,417 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:41:21] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2015-04-15 11:41:24,246 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:41:24] "POST /web/dataset/call_kw/ir.ui.view/fields_view_get HTTP/1.1" 200 -
+2015-04-15 11:41:24,895 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:41:24] "POST /web/dataset/call_kw/ir.ui.view/read HTTP/1.1" 200 -
+2015-04-15 11:41:24,904 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:41:24] "POST /web/dataset/call_kw/ir.ui.view/read HTTP/1.1" 200 -
+2015-04-15 11:41:25,381 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:41:25] "POST /web/dataset/call_kw/res.groups/fields_view_get HTTP/1.1" 200 -
+2015-04-15 11:41:25,381 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:41:25] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2015-04-15 11:41:25,522 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:41:25] "POST /web/dataset/call_kw/ir.ui.view/read HTTP/1.1" 200 -
+2015-04-15 11:41:25,957 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:41:25] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2015-04-15 11:41:29,855 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:41:29] "POST /longpolling/poll HTTP/1.1" 200 -
+2015-04-15 11:41:34,289 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:41:34] "POST /web/dataset/call_kw/ir.model.data/get_formview_action HTTP/1.1" 200 -
+2015-04-15 11:41:34,753 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:41:34] "POST /web/dataset/call_kw/ir.model.data/fields_view_get HTTP/1.1" 200 -
+2015-04-15 11:41:34,753 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:41:34] "POST /web/dataset/call_kw/ir.model.data/fields_view_get HTTP/1.1" 200 -
+2015-04-15 11:41:35,089 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:41:35] "POST /web/dataset/call_kw/ir.filters/get_filters HTTP/1.1" 200 -
+2015-04-15 11:41:35,137 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:41:35] "POST /web/dataset/call_kw/ir.model.data/fields_get HTTP/1.1" 200 -
+2015-04-15 11:41:35,299 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:41:35] "POST /web/dataset/call_kw/ir.model.data/read HTTP/1.1" 200 -
+2015-04-15 11:41:35,667 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:41:35] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2015-04-15 11:41:43,055 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:41:43] "POST /web/action/load HTTP/1.1" 200 -
+2015-04-15 11:41:43,555 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:41:43] "POST /web/dataset/call_kw/ir.ui.view/fields_view_get HTTP/1.1" 200 -
+2015-04-15 11:41:43,585 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:41:43] "POST /web/dataset/call_kw/ir.ui.view/fields_view_get HTTP/1.1" 200 -
+2015-04-15 11:41:43,959 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:41:43] "POST /web/dataset/call_kw/ir.filters/get_filters HTTP/1.1" 200 -
+2015-04-15 11:41:43,986 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:41:43] "POST /web/dataset/call_kw/ir.ui.view/fields_get HTTP/1.1" 200 -
+2015-04-15 11:41:44,391 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:41:44] "POST /web/dataset/call_kw/ir.ui.view/fields_view_get HTTP/1.1" 200 -
+2015-04-15 11:41:44,898 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:41:44] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2015-04-15 11:41:48,334 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:41:48] "POST /longpolling/poll HTTP/1.1" 200 -
+2015-04-15 11:41:51,344 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:41:51] "POST /web/dataset/call_kw/ir.ui.view/fields_view_get HTTP/1.1" 200 -
+2015-04-15 11:41:52,744 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:41:52] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2015-04-15 11:42:07,086 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:42:07] "POST /web/dataset/call_kw/ir.ui.view/fields_view_get HTTP/1.1" 200 -
+2015-04-15 11:42:07,632 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:42:07] "POST /web/dataset/call_kw/ir.ui.view/read HTTP/1.1" 200 -
+2015-04-15 11:42:08,062 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:42:08] "POST /web/dataset/call_kw/res.groups/fields_view_get HTTP/1.1" 200 -
+2015-04-15 11:42:08,096 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:42:08] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2015-04-15 11:42:08,188 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:42:08] "POST /web/dataset/call_kw/ir.ui.view/read HTTP/1.1" 200 -
+2015-04-15 11:42:20,323 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:42:20] "POST /longpolling/poll HTTP/1.1" 200 -
+2015-04-15 11:42:38,697 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:42:38] "POST /longpolling/poll HTTP/1.1" 200 -
+2015-04-15 11:43:10,727 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:43:10] "POST /longpolling/poll HTTP/1.1" 200 -
+2015-04-15 11:43:29,046 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:43:29] "POST /longpolling/poll HTTP/1.1" 200 -
+2015-04-15 11:44:01,102 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:44:01] "POST /longpolling/poll HTTP/1.1" 200 -
+2015-04-15 11:44:19,392 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:44:19] "POST /longpolling/poll HTTP/1.1" 200 -
+2015-04-15 11:44:51,464 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:44:51] "POST /longpolling/poll HTTP/1.1" 200 -
+2015-04-15 11:45:09,766 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:45:09] "POST /longpolling/poll HTTP/1.1" 200 -
+2015-04-15 11:45:22,510 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:45:22] "POST /calendar/notify HTTP/1.1" 200 -
+2015-04-15 11:45:41,819 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:45:41] "POST /longpolling/poll HTTP/1.1" 200 -
+2015-04-15 11:45:43,539 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:45:43] "POST /calendar/notify HTTP/1.1" 200 -
+2015-04-15 11:46:00,128 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:46:00] "POST /longpolling/poll HTTP/1.1" 200 -
+2015-04-15 11:46:32,186 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:46:32] "POST /longpolling/poll HTTP/1.1" 200 -
+2015-04-15 11:46:50,556 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:46:50] "POST /longpolling/poll HTTP/1.1" 200 -
+2015-04-15 11:47:22,542 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:47:22] "POST /longpolling/poll HTTP/1.1" 200 -
+2015-04-15 11:47:40,913 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:47:40] "POST /longpolling/poll HTTP/1.1" 200 -
+2015-04-15 11:48:12,884 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:48:12] "POST /longpolling/poll HTTP/1.1" 200 -
+2015-04-15 11:48:31,263 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:48:31] "POST /longpolling/poll HTTP/1.1" 200 -
+2015-04-15 11:49:03,233 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:49:03] "POST /longpolling/poll HTTP/1.1" 200 -
+2015-04-15 11:49:21,605 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:49:21] "POST /longpolling/poll HTTP/1.1" 200 -
+2015-04-15 11:49:53,611 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:49:53] "POST /longpolling/poll HTTP/1.1" 200 -
+2015-04-15 11:50:11,951 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:50:11] "POST /longpolling/poll HTTP/1.1" 200 -
+2015-04-15 11:50:22,545 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:50:22] "POST /calendar/notify HTTP/1.1" 200 -
+2015-04-15 11:50:43,986 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:50:43] "POST /longpolling/poll HTTP/1.1" 200 -
+2015-04-15 11:50:44,512 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:50:44] "POST /calendar/notify HTTP/1.1" 200 -
+2015-04-15 11:51:02,305 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:51:02] "POST /longpolling/poll HTTP/1.1" 200 -
+2015-04-15 11:51:34,352 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:51:34] "POST /longpolling/poll HTTP/1.1" 200 -
+2015-04-15 11:51:52,694 10260 INFO desarrollo werkzeug: 127.0.0.1 - - [15/Apr/2015 11:51:52] "POST /longpolling/poll HTTP/1.1" 200 -
+2015-04-15 12:36:03,019 9140 INFO ? openerp: OpenERP version 8.0
+2015-04-15 12:36:03,040 9140 INFO ? openerp: addons paths: ['addons\\8.0', u'C:\\Users\\patri_000\\desarrollo\\odoo8\\openerp\\addons']
+2015-04-15 12:36:03,042 9140 INFO ? openerp: database hostname: localhost
+2015-04-15 12:36:03,042 9140 INFO ? openerp: database port: 5432
+2015-04-15 12:36:03,042 9140 INFO ? openerp: database user: openpg
+2015-04-15 12:36:09,344 9140 INFO ? openerp.service.server: HTTP service (werkzeug) running on 0.0.0.0:8069
+2015-04-15 12:36:09,619 9140 INFO desarrollo openerp.modules.loading: loading 1 modules...
+2015-04-15 12:36:09,651 9140 INFO desarrollo openerp.modules.loading: 1 modules loaded in 0.03s, 0 queries
+2015-04-15 12:36:12,365 9140 INFO desarrollo openerp.modules.loading: loading 74 modules...
+2015-04-15 12:36:14,102 9140 INFO ? openerp.addons.bus.bus: Bus.loop listen imbus on db postgres
+2015-04-15 12:36:14,798 9140 INFO desarrollo openerp.addons.report.models.report: You need Wkhtmltopdf to print a pdf version of the reports.
+2015-04-15 12:36:40,178 9140 INFO desarrollo openerp.modules.loading: 74 modules loaded in 27.81s, 0 queries
+2015-04-15 12:36:43,078 9140 INFO desarrollo openerp.modules.loading: Modules loaded.
